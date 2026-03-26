@@ -25,8 +25,9 @@ class DoctorImageAndText extends StatelessWidget {
           ),
           child: Image.asset('assets/image/onboarding_doctor.png'),
         ),
-        Positioned(
-          bottom: 30,
+        Positioned( 
+
+          bottom: 32,
           child: Text(
             'Best Doctor\nAppointment App',
             textAlign: TextAlign.center,
