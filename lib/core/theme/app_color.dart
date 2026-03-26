@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 class AppColor {
   static const Color primaryColor = Color(0xFF247CFF);
   // ── Gray ───────────────────────────────────────────
-  static const Color grayLighter = Color(0xFFA2A2A2);
+  static const Color grayLightest = Color(0xFFfdfdff);
+  static const Color grayLighter = Color(0xFFEDEDED);
+  static const Color grayLighte = Color(0xFFA2A2A2);
   static const Color grayNormal = Color(0xFF313131);
   static const Color grayDark = Color(0xFF111111);
   // ── Semantic ───────────────────────────

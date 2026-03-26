@@ -1,28 +1,58 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:halaby_doc/core/theme/app_color.dart';
+import 'package:halaby_doc/core/theme/font_weight_helper.dart';
 
 class TextStyles {
-  static TextStyle font32Weight800grayNormal = TextStyle(
+  static TextStyle font32GrayNormalExtraBold = TextStyle(
     fontSize: 32.sp,
-    fontWeight: FontWeight.w800,
+    fontWeight: FontWeightHelper.extraBold,
     color: AppColor.grayNormal,
   );
-  static TextStyle font32Weight900blue = TextStyle(
+
+  static TextStyle font32BlueBlack = TextStyle(
     height: 1.4,
     fontSize: 32.sp,
-    fontWeight: FontWeight.w900,
+    fontWeight: FontWeightHelper.black,
     color: AppColor.primaryColor,
   );
-  static TextStyle font16Weight600Wite = TextStyle(
+
+  static TextStyle font24BlueExtraBold = TextStyle(
+    fontSize: 24.h,
+    fontWeight: FontWeightHelper.extraBold,
+    color: AppColor.primaryColor,
+  );
+
+  static TextStyle font16WhiteSemiBold = TextStyle(
     fontSize: 16,
-    fontWeight: FontWeight(600),
+    fontWeight: FontWeightHelper.semiBold,
     color: Colors.white,
   );
-  static TextStyle font12Weight500GrayLighter = TextStyle(
+
+  static TextStyle font14GrayLighteMedium = TextStyle(
+    height: 1.7,
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: AppColor.grayLighte,
+  );
+
+  static TextStyle font14GrayDarkNormal = TextStyle(
     height: 1.7,
     fontSize: 12.sp,
-    fontWeight: FontWeight.w500,
-    color: AppColor.grayLighter,
+    fontWeight: FontWeightHelper.medium,
+    color: AppColor.grayNormal,
+  );
+  static TextStyle font13BlueRegular = TextStyle(
+    height: 1.7,
+    fontSize: 13.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: AppColor.primaryColor,
+  );
+
+  static TextStyle font13GrayLighteMedium = TextStyle(
+    height: 1.7,
+    fontSize: 13.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: AppColor.grayLighte,
   );
 }
