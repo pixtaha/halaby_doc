@@ -620,5 +620,130 @@
         }
       ]
     }
+    ,
+    {
+      "id": 11,
+      "name_ar": "طب الأعصاب والجراحة العصبية",
+      "name_en": "Neurology",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966322.png",
+      "doctors": [
+        {
+          "id": 1101,
+          "name_ar": "د. عمرو الشيخ",
+          "name_en": "Dr. Amr El-Sheikh",
+          "specialty_ar": "طب الأعصاب والجراحة العصبية",
+          "specialty_en": "Neurology",
+          "image": "https://randomuser.me/api/portraits/men/44.jpg",
+          "clinic_phone": "01012398765",
+          "clinic_address_ar": "٥ شارع الجامعة، الدقي، الجيزة",
+          "clinic_address_en": "5 El-Gama'a St., Dokki, Giza",
+          "rating": 4.9,
+          "reviews_count": 189,
+          "reviews": [
+            { "id": 1, "reviewer": "سامي الحسيني", "rating": 5, "comment": "دكتور متميز جداً في الجراحة العصبية" },
+            { "id": 2, "reviewer": "هيام رشاد", "rating": 5, "comment": "عمل عملية للعمود الفقري وطلعت ناجحة" },
+            { "id": 3, "reviewer": "طارق البدوي", "rating": 4, "comment": "خبرة واسعة ومتمكن من تخصصه" }
+          ]
+        },
+        {
+          "id": 1102,
+          "name_ar": "د. لميس عبد الحكيم",
+          "name_en": "Dr. Lamees Abd El-Hakim",
+          "specialty_ar": "طب الأعصاب والجراحة العصبية",
+          "specialty_en": "Neurology",
+          "image": "https://randomuser.me/api/portraits/women/44.jpg",
+          "clinic_phone": "01123498765",
+          "clinic_address_ar": "١٠ شارع الحصري، أكتوبر",
+          "clinic_address_en": "10 El-Hosary St., 6th of October",
+          "rating": 4.7,
+          "reviews_count": 134,
+          "reviews": [
+            { "id": 1, "reviewer": "أحمد الشرقاوي", "rating": 5, "comment": "دكتورة رائعة في علاج الصرع" },
+            { "id": 2, "reviewer": "نور الدين حسن", "rating": 4, "comment": "متابعة ممتازة وعلاج فعال" },
+            { "id": 3, "reviewer": "سهير عثمان", "rating": 5, "comment": "شرحت الحالة بالتفصيل وطمنتني" }
+          ]
+        },
+        {
+          "id": 1103,
+          "name_ar": "د. هاني البسيوني",
+          "name_en": "Dr. Hany El-Basyouni",
+          "specialty_ar": "طب الأعصاب والجراحة العصبية",
+          "specialty_en": "Neurology",
+          "image": "https://randomuser.me/api/portraits/men/45.jpg",
+          "clinic_phone": "01234598765",
+          "clinic_address_ar": "٣ شارع الثورة، مصر الجديدة",
+          "clinic_address_en": "3 El-Thawra St., Heliopolis",
+          "rating": 4.5,
+          "reviews_count": 88,
+          "reviews": [
+            { "id": 1, "reviewer": "رانيا الجوهري", "rating": 4, "comment": "دكتور هادئ ومتأني في التشخيص" },
+            { "id": 2, "reviewer": "عصام النجار", "rating": 5, "comment": "علج الشقيقة بتاعتي من غير جراحة" },
+            { "id": 3, "reviewer": "مروة سليم", "rating": 5, "comment": "متخصص في أمراض الأعصاب الطرفية" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name_ar": "الأشعة التشخيصية",
+      "name_en": "Radiology",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966344.png",
+      "doctors": [
+        {
+          "id": 1201,
+          "name_ar": "د. أشرف الديب",
+          "name_en": "Dr. Ashraf El-Deeb",
+          "specialty_ar": "الأشعة التشخيصية",
+          "specialty_en": "Radiology",
+          "image": "https://randomuser.me/api/portraits/men/55.jpg",
+          "clinic_phone": "01098712345",
+          "clinic_address_ar": "٨ شارع الجلاء، وسط البلد، القاهرة",
+          "clinic_address_en": "8 El-Galaa St., Downtown Cairo",
+          "rating": 4.8,
+          "reviews_count": 162,
+          "reviews": [
+            { "id": 1, "reviewer": "محمد الغزالي", "rating": 5, "comment": "دكتور دقيق جداً في قراءة الأشعة" },
+            { "id": 2, "reviewer": "سمية عبد العال", "rating": 5, "comment": "اكتشف حاجة دكاترة تانيين فاتتهم" },
+            { "id": 3, "reviewer": "حمدي الزيات", "rating": 4, "comment": "تقرير مفصل ومفهوم" }
+          ]
+        },
+        {
+          "id": 1202,
+          "name_ar": "د. منار عبد الرحيم",
+          "name_en": "Dr. Manar Abd El-Rahim",
+          "specialty_ar": "الأشعة التشخيصية",
+          "specialty_en": "Radiology",
+          "image": "https://randomuser.me/api/portraits/women/55.jpg",
+          "clinic_phone": "01187612345",
+          "clinic_address_ar": "١٥ شارع مصطفى النحاس، مدينة نصر",
+          "clinic_address_en": "15 Mostafa El-Nahas St., Nasr City",
+          "rating": 4.6,
+          "reviews_count": 97,
+          "reviews": [
+            { "id": 1, "reviewer": "إبراهيم الصاوي", "rating": 5, "comment": "دكتورة ماهرة في الأشعة بالموجات الصوتية" },
+            { "id": 2, "reviewer": "ناهد منصور", "rating": 4, "comment": "سريعة ودقيقة في شغلها" },
+            { "id": 3, "reviewer": "وليد الشيخ", "rating": 5, "comment": "متخصصة في أشعة الثدي والتشخيص المبكر" }
+          ]
+        },
+        {
+          "id": 1203,
+          "name_ar": "د. خالد عبد المنعم",
+          "name_en": "Dr. Khaled Abd El-Moneim",
+          "specialty_ar": "الأشعة التشخيصية",
+          "specialty_en": "Radiology",
+          "image": "https://randomuser.me/api/portraits/men/56.jpg",
+          "clinic_phone": "01276512345",
+          "clinic_address_ar": "٢ شارع البحر الأعظم، المهندسين",
+          "clinic_address_en": "2 El-Bahr El-Azam St., Mohandessin",
+          "rating": 4.4,
+          "reviews_count": 73,
+          "reviews": [
+            { "id": 1, "reviewer": "فادي عزيز", "rating": 4, "comment": "دكتور كويس في أشعة الرنين المغناطيسي" },
+            { "id": 2, "reviewer": "عزة فاروق", "rating": 5, "comment": "شرح نتيجة الأشعة بطريقة مبسطة" },
+            { "id": 3, "reviewer": "سيف الدين أحمد", "rating": 4, "comment": "مركز مجهز بأحدث الأجهزة" }
+          ]
+        }
+      ]
+    }
   ]
 }

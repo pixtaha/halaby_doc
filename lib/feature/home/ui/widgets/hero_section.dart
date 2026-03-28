@@ -36,11 +36,11 @@ class HeroSection extends StatelessWidget {
               ],
             ),
             CircleAvatar(
-              radius: 28.w,
+              radius: 24.r,
               backgroundColor: AppColor.grayLighter,
               child: SvgPicture.asset(
                 'assets/icon/notification-icon.svg',
-                width: 24.w,
+                width: 20.w,
               ),
             ),
           ],
