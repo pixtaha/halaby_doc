@@ -1,0 +1,624 @@
+{
+  "specialties": [
+    {
+      "id": 1,
+      "name_ar": "طب الأطفال",
+      "name_en": "Pediatrics",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
+      "doctors": [
+        {
+          "id": 101,
+          "name_ar": "د. أحمد محمد السيد",
+          "name_en": "Dr. Ahmed Mohamed El-Sayed",
+          "specialty_ar": "طب الأطفال",
+          "specialty_en": "Pediatrics",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "clinic_phone": "01012345678",
+          "clinic_address_ar": "٥ شارع التحرير، المعادي، القاهرة",
+          "clinic_address_en": "5 Tahrir St., Maadi, Cairo",
+          "rating": 4.8,
+          "reviews_count": 124,
+          "reviews": [
+            { "id": 1, "reviewer": "أم كريم", "rating": 5, "comment": "دكتور ممتاز ومتفهم جداً مع الأطفال، ربنا يبارك فيه" },
+            { "id": 2, "reviewer": "محمد علي", "rating": 5, "comment": "تشخيص سريع ودقيق، أنصح بيه جداً" },
+            { "id": 3, "reviewer": "سارة أحمد", "rating": 4, "comment": "كويس بس الانتظار طويل شوية" }
+          ]
+        },
+        {
+          "id": 102,
+          "name_ar": "د. منى إبراهيم حسن",
+          "name_en": "Dr. Mona Ibrahim Hassan",
+          "specialty_ar": "طب الأطفال",
+          "specialty_en": "Pediatrics",
+          "image": "https://randomuser.me/api/portraits/women/12.jpg",
+          "clinic_phone": "01123456789",
+          "clinic_address_ar": "١٢ شارع الجلاء، مدينة نصر، القاهرة",
+          "clinic_address_en": "12 El-Galaa St., Nasr City, Cairo",
+          "rating": 4.6,
+          "reviews_count": 89,
+          "reviews": [
+            { "id": 1, "reviewer": "هناء محمود", "rating": 5, "comment": "دكتورة رائعة ومبتسمة دايماً" },
+            { "id": 2, "reviewer": "خالد يوسف", "rating": 4, "comment": "متعاونة جداً وشارحة كل حاجة بالتفصيل" },
+            { "id": 3, "reviewer": "نورا سامي", "rating": 5, "comment": "أفضل دكتورة أطفال قابلتها" }
+          ]
+        },
+        {
+          "id": 103,
+          "name_ar": "د. عمر فاروق عبد الله",
+          "name_en": "Dr. Omar Farouk Abdullah",
+          "specialty_ar": "طب الأطفال",
+          "specialty_en": "Pediatrics",
+          "image": "https://randomuser.me/api/portraits/men/13.jpg",
+          "clinic_phone": "01234567890",
+          "clinic_address_ar": "٣ شارع فيصل، الجيزة",
+          "clinic_address_en": "3 Faisal St., Giza",
+          "rating": 4.5,
+          "reviews_count": 67,
+          "reviews": [
+            { "id": 1, "reviewer": "أمل رمضان", "rating": 4, "comment": "دكتور كويس بس العيادة بعيدة شوية" },
+            { "id": 2, "reviewer": "إسلام حسام", "rating": 5, "comment": "خبرة عالية ومتمكن جداً من تخصصه" },
+            { "id": 3, "reviewer": "ريهام صلاح", "rating": 4, "comment": "مواعيد منتظمة ومحترم جداً" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name_ar": "طب القلب",
+      "name_en": "Cardiology",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966278.png",
+      "doctors": [
+        {
+          "id": 201,
+          "name_ar": "د. طارق عبد العزيز",
+          "name_en": "Dr. Tarek Abd El-Aziz",
+          "specialty_ar": "طب القلب",
+          "specialty_en": "Cardiology",
+          "image": "https://randomuser.me/api/portraits/men/21.jpg",
+          "clinic_phone": "01098765432",
+          "clinic_address_ar": "٨ شارع الهرم، الجيزة",
+          "clinic_address_en": "8 El-Haram St., Giza",
+          "rating": 4.9,
+          "reviews_count": 213,
+          "reviews": [
+            { "id": 1, "reviewer": "حسن مصطفى", "rating": 5, "comment": "دكتور من الطراز الأول، خبرة كبيرة جداً" },
+            { "id": 2, "reviewer": "سعاد كمال", "rating": 5, "comment": "أنقذ حياة والدي، ربنا يجازيه خير" },
+            { "id": 3, "reviewer": "وليد نبيل", "rating": 5, "comment": "شرح حالتي بالكامل وخلاني مطمن" }
+          ]
+        },
+        {
+          "id": 202,
+          "name_ar": "د. هبة عصام الدين",
+          "name_en": "Dr. Heba Essam El-Din",
+          "specialty_ar": "طب القلب",
+          "specialty_en": "Cardiology",
+          "image": "https://randomuser.me/api/portraits/women/22.jpg",
+          "clinic_phone": "01187654321",
+          "clinic_address_ar": "٢٠ شارع عباس العقاد، مدينة نصر",
+          "clinic_address_en": "20 Abbas El-Akkad St., Nasr City",
+          "rating": 4.7,
+          "reviews_count": 158,
+          "reviews": [
+            { "id": 1, "reviewer": "محمود جلال", "rating": 5, "comment": "دكتورة محترمة ومتخصصة جداً" },
+            { "id": 2, "reviewer": "فاطمة عمر", "rating": 4, "comment": "كويسة بس تاخد وقت في الشرح" },
+            { "id": 3, "reviewer": "أشرف درويش", "rating": 5, "comment": "تشخيص دقيق وعلاج صح" }
+          ]
+        },
+        {
+          "id": 203,
+          "name_ar": "د. كريم منصور",
+          "name_en": "Dr. Karim Mansour",
+          "specialty_ar": "طب القلب",
+          "specialty_en": "Cardiology",
+          "image": "https://randomuser.me/api/portraits/men/23.jpg",
+          "clinic_phone": "01276543210",
+          "clinic_address_ar": "١٥ شارع الدقي، الجيزة",
+          "clinic_address_en": "15 El-Dokki St., Giza",
+          "rating": 4.4,
+          "reviews_count": 94,
+          "reviews": [
+            { "id": 1, "reviewer": "نادية حلمي", "rating": 4, "comment": "دكتور شاطر بس مشغول أوي" },
+            { "id": 2, "reviewer": "يوسف صابر", "rating": 5, "comment": "علاجه نافع الحمد لله" },
+            { "id": 3, "reviewer": "إيمان فتحي", "rating": 4, "comment": "كويس ومتابع بعد الكشف" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name_ar": "طب العيون",
+      "name_en": "Ophthalmology",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966292.png",
+      "doctors": [
+        {
+          "id": 301,
+          "name_ar": "د. ياسمين حسام",
+          "name_en": "Dr. Yasmin Hossam",
+          "specialty_ar": "طب العيون",
+          "specialty_en": "Ophthalmology",
+          "image": "https://randomuser.me/api/portraits/women/31.jpg",
+          "clinic_phone": "01365432109",
+          "clinic_address_ar": "٦ شارع المشير طنطاوي، المهندسين",
+          "clinic_address_en": "6 El-Mosher Tantawi St., Mohandessin",
+          "rating": 4.7,
+          "reviews_count": 102,
+          "reviews": [
+            { "id": 1, "reviewer": "زينب محمد", "rating": 5, "comment": "دكتورة بتشرح بالتفصيل وعندها صبر" },
+            { "id": 2, "reviewer": "عادل فهمي", "rating": 5, "comment": "حل مشكلة بصري من أول كشف" },
+            { "id": 3, "reviewer": "منى عبد الرحمن", "rating": 4, "comment": "عيادة نظيفة وتجهيزات حديثة" }
+          ]
+        },
+        {
+          "id": 302,
+          "name_ar": "د. سامح رضا",
+          "name_en": "Dr. Sameh Reda",
+          "specialty_ar": "طب العيون",
+          "specialty_en": "Ophthalmology",
+          "image": "https://randomuser.me/api/portraits/men/32.jpg",
+          "clinic_phone": "01054321098",
+          "clinic_address_ar": "٩ شارع ٩٠، التجمع الخامس",
+          "clinic_address_en": "9 St. 90, Fifth Settlement",
+          "rating": 4.6,
+          "reviews_count": 77,
+          "reviews": [
+            { "id": 1, "reviewer": "لمياء حسين", "rating": 5, "comment": "ماهر جداً في عمليات الليزك" },
+            { "id": 2, "reviewer": "بسام طه", "rating": 4, "comment": "متمكن من عمله ومطمئن" },
+            { "id": 3, "reviewer": "شيرين فؤاد", "rating": 5, "comment": "أفضل دكتور عيون في المنطقة" }
+          ]
+        },
+        {
+          "id": 303,
+          "name_ar": "د. رانيا الشريف",
+          "name_en": "Dr. Rania El-Shareef",
+          "specialty_ar": "طب العيون",
+          "specialty_en": "Ophthalmology",
+          "image": "https://randomuser.me/api/portraits/women/33.jpg",
+          "clinic_phone": "01143210987",
+          "clinic_address_ar": "١١ شارع النزهة، مصر الجديدة",
+          "clinic_address_en": "11 El-Nozha St., Heliopolis",
+          "rating": 4.5,
+          "reviews_count": 61,
+          "reviews": [
+            { "id": 1, "reviewer": "كريمة سعد", "rating": 4, "comment": "دكتورة متعاونة وبتفهم" },
+            { "id": 2, "reviewer": "وائل حسن", "rating": 5, "comment": "شرحت الوضع كويس وديني علاج مناسب" },
+            { "id": 3, "reviewer": "دينا عاطف", "rating": 5, "comment": "ممتازة في تركيب النضارات والعدسات" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name_ar": "طب الأسنان",
+      "name_en": "Dentistry",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966302.png",
+      "doctors": [
+        {
+          "id": 401,
+          "name_ar": "د. محمد عبد الحميد",
+          "name_en": "Dr. Mohamed Abd El-Hamid",
+          "specialty_ar": "طب الأسنان",
+          "specialty_en": "Dentistry",
+          "image": "https://randomuser.me/api/portraits/men/41.jpg",
+          "clinic_phone": "01232109876",
+          "clinic_address_ar": "٧ شارع البطل أحمد عبد العزيز، المهندسين",
+          "clinic_address_en": "7 El-Batal Ahmed Abd El-Aziz St., Mohandessin",
+          "rating": 4.8,
+          "reviews_count": 188,
+          "reviews": [
+            { "id": 1, "reviewer": "مريم إبراهيم", "rating": 5, "comment": "دكتور بيحس بالمريض ومش بيوجع خالص" },
+            { "id": 2, "reviewer": "تامر محروس", "rating": 5, "comment": "شغل نظيف وأسنان تبان تمام" },
+            { "id": 3, "reviewer": "هالة أنور", "rating": 4, "comment": "سعر مناسب مقارنة بغيره" }
+          ]
+        },
+        {
+          "id": 402,
+          "name_ar": "د. نور الهدى عثمان",
+          "name_en": "Dr. Nour El-Hoda Othman",
+          "specialty_ar": "طب الأسنان",
+          "specialty_en": "Dentistry",
+          "image": "https://randomuser.me/api/portraits/women/42.jpg",
+          "clinic_phone": "01321098765",
+          "clinic_address_ar": "٢ شارع الثورة، مصر الجديدة",
+          "clinic_address_en": "2 El-Thawra St., Heliopolis",
+          "rating": 4.6,
+          "reviews_count": 115,
+          "reviews": [
+            { "id": 1, "reviewer": "أحمد سليمان", "rating": 5, "comment": "دكتورة شاطرة في التجميل والتقويم" },
+            { "id": 2, "reviewer": "رشا إسماعيل", "rating": 4, "comment": "شغلها دقيق ومتقن" },
+            { "id": 3, "reviewer": "عمرو بدوي", "rating": 5, "comment": "أخدت تقويم عندها وراضية جداً" }
+          ]
+        },
+        {
+          "id": 403,
+          "name_ar": "د. إسلام عبد الوهاب",
+          "name_en": "Dr. Islam Abd El-Wahab",
+          "specialty_ar": "طب الأسنان",
+          "specialty_en": "Dentistry",
+          "image": "https://randomuser.me/api/portraits/men/43.jpg",
+          "clinic_phone": "01410987654",
+          "clinic_address_ar": "٤ شارع المختار، العجوزة",
+          "clinic_address_en": "4 El-Mokhtar St., Agouza",
+          "rating": 4.3,
+          "reviews_count": 52,
+          "reviews": [
+            { "id": 1, "reviewer": "صفاء جابر", "rating": 4, "comment": "كويس وبيشرح العلاج كويس" },
+            { "id": 2, "reviewer": "حمدي قاسم", "rating": 5, "comment": "علاج جذور ناجح الحمد لله" },
+            { "id": 3, "reviewer": "ولاء حمدي", "rating": 4, "comment": "عيادة مجهزة ونظيفة" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name_ar": "طب العظام",
+      "name_en": "Orthopedics",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966334.png",
+      "doctors": [
+        {
+          "id": 501,
+          "name_ar": "د. حازم شوقي",
+          "name_en": "Dr. Hazem Shawky",
+          "specialty_ar": "طب العظام",
+          "specialty_en": "Orthopedics",
+          "image": "https://randomuser.me/api/portraits/men/51.jpg",
+          "clinic_phone": "01509876543",
+          "clinic_address_ar": "١٠ شارع جسر السويس، مدينة نصر",
+          "clinic_address_en": "10 Gesr El-Suez St., Nasr City",
+          "rating": 4.9,
+          "reviews_count": 176,
+          "reviews": [
+            { "id": 1, "reviewer": "سيد الشرقاوي", "rating": 5, "comment": "دكتور ممتاز عمل لي عملية وطلعت تمام" },
+            { "id": 2, "reviewer": "نجوى مصطفى", "rating": 5, "comment": "خبرة كبيرة في عمليات الركبة" },
+            { "id": 3, "reviewer": "جمال البنا", "rating": 5, "comment": "شفيت من ألم الظهر المزمن بفضله" }
+          ]
+        },
+        {
+          "id": 502,
+          "name_ar": "د. ماجدة فريد",
+          "name_en": "Dr. Magda Farid",
+          "specialty_ar": "طب العظام",
+          "specialty_en": "Orthopedics",
+          "image": "https://randomuser.me/api/portraits/women/52.jpg",
+          "clinic_phone": "01698765432",
+          "clinic_address_ar": "٣ شارع الأهرام، الجيزة",
+          "clinic_address_en": "3 El-Ahram St., Giza",
+          "rating": 4.5,
+          "reviews_count": 83,
+          "reviews": [
+            { "id": 1, "reviewer": "ربيع عبد الله", "rating": 5, "comment": "دكتورة دقيقة في التشخيص" },
+            { "id": 2, "reviewer": "فوزية إبراهيم", "rating": 4, "comment": "مشيت عادي بعد ما كنت مش قادر أمشي" },
+            { "id": 3, "reviewer": "ناصر حسن", "rating": 5, "comment": "متخصصة في الكسور والمفاصل" }
+          ]
+        },
+        {
+          "id": 503,
+          "name_ar": "د. أيمن رشاد",
+          "name_en": "Dr. Ayman Rashad",
+          "specialty_ar": "طب العظام",
+          "specialty_en": "Orthopedics",
+          "image": "https://randomuser.me/api/portraits/men/53.jpg",
+          "clinic_phone": "01787654321",
+          "clinic_address_ar": "١٨ شارع إسماعيل محمد، الزمالك",
+          "clinic_address_en": "18 Ismail Mohamed St., Zamalek",
+          "rating": 4.4,
+          "reviews_count": 64,
+          "reviews": [
+            { "id": 1, "reviewer": "لطفي عبد الرازق", "rating": 4, "comment": "دكتور متمكن وعمله دقيق" },
+            { "id": 2, "reviewer": "منال غريب", "rating": 5, "comment": "علاج طبيعي بعد العملية كان تحت إشرافه ممتاز" },
+            { "id": 3, "reviewer": "صلاح الدين علي", "rating": 4, "comment": "كويس بس الكشفية غالية شوية" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name_ar": "الأمراض الجلدية",
+      "name_en": "Dermatology",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966316.png",
+      "doctors": [
+        {
+          "id": 601,
+          "name_ar": "د. شيرين عادل",
+          "name_en": "Dr. Sherine Adel",
+          "specialty_ar": "الأمراض الجلدية",
+          "specialty_en": "Dermatology",
+          "image": "https://randomuser.me/api/portraits/women/61.jpg",
+          "clinic_phone": "01876543210",
+          "clinic_address_ar": "٥ شارع صفية زغلول، الإسكندرية",
+          "clinic_address_en": "5 Safia Zaghloul St., Alexandria",
+          "rating": 4.8,
+          "reviews_count": 143,
+          "reviews": [
+            { "id": 1, "reviewer": "ندى وليم", "rating": 5, "comment": "علجت مشكلة البشرة بتاعتي من أول زيارة" },
+            { "id": 2, "reviewer": "سمر مجدي", "rating": 5, "comment": "دكتورة متخصصة في الليزر والتجميل" },
+            { "id": 3, "reviewer": "ريم أحمد", "rating": 4, "comment": "بتهتم بالمريض وبتابع معاه" }
+          ]
+        },
+        {
+          "id": 602,
+          "name_ar": "د. باسم حلمي",
+          "name_en": "Dr. Bassem Helmy",
+          "specialty_ar": "الأمراض الجلدية",
+          "specialty_en": "Dermatology",
+          "image": "https://randomuser.me/api/portraits/men/62.jpg",
+          "clinic_phone": "01965432109",
+          "clinic_address_ar": "٢٢ شارع الكورنيش، المعادي",
+          "clinic_address_en": "22 El-Corniche St., Maadi",
+          "rating": 4.6,
+          "reviews_count": 99,
+          "reviews": [
+            { "id": 1, "reviewer": "إيناس ربيع", "rating": 5, "comment": "دكتور شاطر في علاج حب الشباب" },
+            { "id": 2, "reviewer": "رامي عزيز", "rating": 4, "comment": "نتيجة كويسة بعد شهرين من العلاج" },
+            { "id": 3, "reviewer": "مي عصام", "rating": 5, "comment": "متخصص في الشعر والفروة" }
+          ]
+        },
+        {
+          "id": 603,
+          "name_ar": "د. نيفين سمير",
+          "name_en": "Dr. Neveen Samir",
+          "specialty_ar": "الأمراض الجلدية",
+          "specialty_en": "Dermatology",
+          "image": "https://randomuser.me/api/portraits/women/63.jpg",
+          "clinic_phone": "01054321907",
+          "clinic_address_ar": "٨ شارع الفلاح، المهندسين",
+          "clinic_address_en": "8 El-Fallah St., Mohandessin",
+          "rating": 4.5,
+          "reviews_count": 71,
+          "reviews": [
+            { "id": 1, "reviewer": "آية حمدي", "rating": 5, "comment": "دكتورة هادية ومتحملة جداً" },
+            { "id": 2, "reviewer": "محسن قنديل", "rating": 4, "comment": "وصفتلي علاج ناجح للأكزيما" },
+            { "id": 3, "reviewer": "نانسي فاروق", "rating": 5, "comment": "بشرتي اتحسنت كتير بسببها" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name_ar": "الأنف والأذن والحنجرة",
+      "name_en": "ENT (Ear, Nose & Throat)",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966288.png",
+      "doctors": [
+        {
+          "id": 701,
+          "name_ar": "د. علاء حسين",
+          "name_en": "Dr. Alaa Hussein",
+          "specialty_ar": "الأنف والأذن والحنجرة",
+          "specialty_en": "ENT",
+          "image": "https://randomuser.me/api/portraits/men/71.jpg",
+          "clinic_phone": "01143209876",
+          "clinic_address_ar": "١٤ شارع الحجاز، مصر الجديدة",
+          "clinic_address_en": "14 El-Hegaz St., Heliopolis",
+          "rating": 4.7,
+          "reviews_count": 117,
+          "reviews": [
+            { "id": 1, "reviewer": "فريدة محمد", "rating": 5, "comment": "عمل لولدي عملية اللوزتين وطلعت تمام" },
+            { "id": 2, "reviewer": "مجدي عليوة", "rating": 4, "comment": "تشخيص سريع وعلاج فعال" },
+            { "id": 3, "reviewer": "حنان البسيوني", "rating": 5, "comment": "دكتور شاطر ومش بيتأخر في المواعيد" }
+          ]
+        },
+        {
+          "id": 702,
+          "name_ar": "د. لبنى الجوهري",
+          "name_en": "Dr. Lobna El-Gohary",
+          "specialty_ar": "الأنف والأذن والحنجرة",
+          "specialty_en": "ENT",
+          "image": "https://randomuser.me/api/portraits/women/72.jpg",
+          "clinic_phone": "01232108765",
+          "clinic_address_ar": "١ شارع السودان، المهندسين",
+          "clinic_address_en": "1 El-Sudan St., Mohandessin",
+          "rating": 4.5,
+          "reviews_count": 88,
+          "reviews": [
+            { "id": 1, "reviewer": "طه حسنين", "rating": 4, "comment": "دكتورة متعاونة ومفيدة" },
+            { "id": 2, "reviewer": "سلوى نجيب", "rating": 5, "comment": "علاجها للحساسية كان ممتاز" },
+            { "id": 3, "reviewer": "كمال درويش", "rating": 5, "comment": "بتشرح الحالة وبتدي بدائل للعلاج" }
+          ]
+        },
+        {
+          "id": 703,
+          "name_ar": "د. رامي السعيد",
+          "name_en": "Dr. Ramy El-Saeed",
+          "specialty_ar": "الأنف والأذن والحنجرة",
+          "specialty_en": "ENT",
+          "image": "https://randomuser.me/api/portraits/men/73.jpg",
+          "clinic_phone": "01321097654",
+          "clinic_address_ar": "٦ شارع مكة المكرمة، مدينة نصر",
+          "clinic_address_en": "6 Mecca St., Nasr City",
+          "rating": 4.4,
+          "reviews_count": 59,
+          "reviews": [
+            { "id": 1, "reviewer": "أسماء رفعت", "rating": 4, "comment": "كويس في تشخيص مشاكل السمع" },
+            { "id": 2, "reviewer": "جورج ميخائيل", "rating": 5, "comment": "حل مشكلة الأذن بتاعتي من غير عملية" },
+            { "id": 3, "reviewer": "سحر ممتاز", "rating": 4, "comment": "دكتور محترم ومتقن لشغله" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name_ar": "طب الباطنة",
+      "name_en": "Internal Medicine",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966262.png",
+      "doctors": [
+        {
+          "id": 801,
+          "name_ar": "د. صلاح منير",
+          "name_en": "Dr. Salah Monir",
+          "specialty_ar": "طب الباطنة",
+          "specialty_en": "Internal Medicine",
+          "image": "https://randomuser.me/api/portraits/men/81.jpg",
+          "clinic_phone": "01410986543",
+          "clinic_address_ar": "١٦ شارع رمسيس، وسط البلد",
+          "clinic_address_en": "16 Ramses St., Downtown Cairo",
+          "rating": 4.8,
+          "reviews_count": 201,
+          "reviews": [
+            { "id": 1, "reviewer": "يسرا الحداد", "rating": 5, "comment": "دكتور بيفهم الحالة من أول كشف" },
+            { "id": 2, "reviewer": "بهاء الدين أحمد", "rating": 5, "comment": "خبرته كبيرة وعلاجه صح" },
+            { "id": 3, "reviewer": "سناء عبد الفتاح", "rating": 4, "comment": "مشهور جداً ومستاهل الزحمة" }
+          ]
+        },
+        {
+          "id": 802,
+          "name_ar": "د. أميرة الشناوي",
+          "name_en": "Dr. Amira El-Shennawi",
+          "specialty_ar": "طب الباطنة",
+          "specialty_en": "Internal Medicine",
+          "image": "https://randomuser.me/api/portraits/women/82.jpg",
+          "clinic_phone": "01509875432",
+          "clinic_address_ar": "٩ شارع البحر الأعظم، العجوزة",
+          "clinic_address_en": "9 El-Bahr El-Azam St., Agouza",
+          "rating": 4.6,
+          "reviews_count": 133,
+          "reviews": [
+            { "id": 1, "reviewer": "حسام الخطيب", "rating": 5, "comment": "دكتورة شاملة في تشخيصها" },
+            { "id": 2, "reviewer": "ابتسام نور", "rating": 4, "comment": "بتتابع مع المريض باستمرار" },
+            { "id": 3, "reviewer": "شريف الجيار", "rating": 5, "comment": "علجت السكر والضغط معاً عندها" }
+          ]
+        },
+        {
+          "id": 803,
+          "name_ar": "د. محمد الرفاعي",
+          "name_en": "Dr. Mohamed El-Refaai",
+          "specialty_ar": "طب الباطنة",
+          "specialty_en": "Internal Medicine",
+          "image": "https://randomuser.me/api/portraits/men/83.jpg",
+          "clinic_phone": "01698764321",
+          "clinic_address_ar": "٢٥ شارع الأزهر، القاهرة",
+          "clinic_address_en": "25 El-Azhar St., Cairo",
+          "rating": 4.3,
+          "reviews_count": 76,
+          "reviews": [
+            { "id": 1, "reviewer": "حميدة عبد السلام", "rating": 4, "comment": "دكتور واسع الخبرة وبيشرح كويس" },
+            { "id": 2, "reviewer": "عزت إبراهيم", "rating": 5, "comment": "وصفتلي علاج للكبد وحسيت بتحسن" },
+            { "id": 3, "reviewer": "رشيدة عبد الغفار", "rating": 4, "comment": "صادق في كلامه ومش بيكدب على المريض" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name_ar": "طب النساء والتوليد",
+      "name_en": "Obstetrics & Gynecology",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966310.png",
+      "doctors": [
+        {
+          "id": 901,
+          "name_ar": "د. سوسن جلال",
+          "name_en": "Dr. Sawsan Galal",
+          "specialty_ar": "طب النساء والتوليد",
+          "specialty_en": "OB/GYN",
+          "image": "https://randomuser.me/api/portraits/women/91.jpg",
+          "clinic_phone": "01787653210",
+          "clinic_address_ar": "٣ شارع المدينة المنورة، مدينة نصر",
+          "clinic_address_en": "3 El-Madina El-Monawara St., Nasr City",
+          "rating": 4.9,
+          "reviews_count": 267,
+          "reviews": [
+            { "id": 1, "reviewer": "ختام عبد الله", "rating": 5, "comment": "دكتورة ببساطة من أحسن الدكاترة اللي شفتهم" },
+            { "id": 2, "reviewer": "وداد حسين", "rating": 5, "comment": "اتولدت عندها وكانت جنبي طول الوقت" },
+            { "id": 3, "reviewer": "فردوس أنور", "rating": 5, "comment": "بتطمن المريضة وبتوضح كل حاجة" }
+          ]
+        },
+        {
+          "id": 902,
+          "name_ar": "د. إيمان البرعي",
+          "name_en": "Dr. Iman El-Barrai",
+          "specialty_ar": "طب النساء والتوليد",
+          "specialty_en": "OB/GYN",
+          "image": "https://randomuser.me/api/portraits/women/92.jpg",
+          "clinic_phone": "01876542109",
+          "clinic_address_ar": "١٢ شارع سعد زغلول، الإسكندرية",
+          "clinic_address_en": "12 Saad Zaghloul St., Alexandria",
+          "rating": 4.7,
+          "reviews_count": 184,
+          "reviews": [
+            { "id": 1, "reviewer": "إسراء محمود", "rating": 5, "comment": "دكتورة إنسانة قبل ما تكون طبيبة" },
+            { "id": 2, "reviewer": "منى الطيب", "rating": 4, "comment": "بتشرح خطة العلاج بالكامل" },
+            { "id": 3, "reviewer": "نسرين جمال", "rating": 5, "comment": "رائعة في متابعة الحمل" }
+          ]
+        },
+        {
+          "id": 903,
+          "name_ar": "د. هدى منصور",
+          "name_en": "Dr. Hoda Mansour",
+          "specialty_ar": "طب النساء والتوليد",
+          "specialty_en": "OB/GYN",
+          "image": "https://randomuser.me/api/portraits/women/93.jpg",
+          "clinic_phone": "01965431098",
+          "clinic_address_ar": "٧ شارع الإمام الشافعي، المنيل",
+          "clinic_address_en": "7 El-Imam El-Shafi St., El-Manial",
+          "rating": 4.5,
+          "reviews_count": 109,
+          "reviews": [
+            { "id": 1, "reviewer": "عبير فهمي", "rating": 4, "comment": "دكتورة محترمة وجادة في شغلها" },
+            { "id": 2, "reviewer": "أسمهان يحيى", "rating": 5, "comment": "علجت مشكلتي بعد دكاترة كتير ما قدروش" },
+            { "id": 3, "reviewer": "ميرنا جرجس", "rating": 5, "comment": "بتهتم بالراحة النفسية للمريضة" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name_ar": "طب الأعصاب",
+      "name_en": "Neurology",
+      "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966322.png",
+      "doctors": [
+        {
+          "id": 1001,
+          "name_ar": "د. حسن الرشيدي",
+          "name_en": "Dr. Hassan El-Rashidi",
+          "specialty_ar": "طب الأعصاب",
+          "specialty_en": "Neurology",
+          "image": "https://randomuser.me/api/portraits/men/11.jpg",
+          "clinic_phone": "01054320987",
+          "clinic_address_ar": "١١ شارع الدقي، الجيزة",
+          "clinic_address_en": "11 El-Dokki St., Giza",
+          "rating": 4.8,
+          "reviews_count": 152,
+          "reviews": [
+            { "id": 1, "reviewer": "جمال فوزي", "rating": 5, "comment": "دكتور فاهم الأعصاب جداً وعلاجه صح" },
+            { "id": 2, "reviewer": "صباح عمر", "rating": 5, "comment": "خلصني من الصداع النصفي المزمن" },
+            { "id": 3, "reviewer": "مدحت إسماعيل", "rating": 4, "comment": "بيأخد وقته في الكشف ومش بيتسرع" }
+          ]
+        },
+        {
+          "id": 1002,
+          "name_ar": "د. غادة عز الدين",
+          "name_en": "Dr. Ghada Ezz El-Din",
+          "specialty_ar": "طب الأعصاب",
+          "specialty_en": "Neurology",
+          "image": "https://randomuser.me/api/portraits/women/14.jpg",
+          "clinic_phone": "01143208765",
+          "clinic_address_ar": "٤ شارع البستان، وسط البلد",
+          "clinic_address_en": "4 El-Bustan St., Downtown Cairo",
+          "rating": 4.6,
+          "reviews_count": 98,
+          "reviews": [
+            { "id": 1, "reviewer": "رفيق سلطان", "rating": 5, "comment": "دكتورة ذكية ومتمكنة" },
+            { "id": 2, "reviewer": "ثريا صادق", "rating": 4, "comment": "علجت الجلطة بتاعت والدي كويس" },
+            { "id": 3, "reviewer": "لقمان عبد الوهاب", "rating": 5, "comment": "متابعة ممتازة بعد الخروج من المستشفى" }
+          ]
+        },
+        {
+          "id": 1003,
+          "name_ar": "د. وائل السباعي",
+          "name_en": "Dr. Wael El-Sebaai",
+          "specialty_ar": "طب الأعصاب",
+          "specialty_en": "Neurology",
+          "image": "https://randomuser.me/api/portraits/men/15.jpg",
+          "clinic_phone": "01232107654",
+          "clinic_address_ar": "١٩ شارع الوادي، المقطم",
+          "clinic_address_en": "19 El-Wadi St., El-Moqattam",
+          "rating": 4.4,
+          "reviews_count": 71,
+          "reviews": [
+            { "id": 1, "reviewer": "أنور الشيخ", "rating": 4, "comment": "دكتور هادي ومتزن في قراراته" },
+            { "id": 2, "reviewer": "نجاة يوسف", "rating": 5, "comment": "علج الصرع مع ولدي بطريقة ممتازة" },
+            { "id": 3, "reviewer": "عبد الرحمن فريد", "rating": 4, "comment": "ضليت أروحله ٣ سنين وعلاجه ثابت" }
+          ]
+        }
+      ]
+    }
+  ]
+}

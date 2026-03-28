@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:halaby_doc/core/helper/extension.dart';
 import 'package:halaby_doc/core/helper/spacing.dart';
 import 'package:halaby_doc/core/router/routes.dart';
 import 'package:halaby_doc/core/theme/textstyles.dart';
 import 'package:halaby_doc/core/widget/app_text_button.dart';
+import 'package:halaby_doc/feature/Auth/logic/cubit/auth_cubit.dart';
 import 'package:halaby_doc/feature/onboarding/ui/widget/doctor_image_and_text.dart';
 import 'package:halaby_doc/feature/onboarding/ui/widget/halaby_logo_and_name.dart';
 
@@ -36,7 +38,6 @@ class OnboardingView extends StatelessWidget {
                       // const GetStartedButton(),
                       AppTextButton(
                         buttonText: 'GetStarted',
-                        textStyle: TextStyles.font16WhiteSemiBold,
                         onPressed: () {
                           context.pushNamed(Routes.loginScreen);
                         },

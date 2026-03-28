@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:halaby_doc/core/router/routes.dart';
+import 'package:halaby_doc/feature/Auth/logic/cubit/auth_cubit.dart';
 import 'package:halaby_doc/feature/Auth/ui/view/login_view.dart';
+import 'package:halaby_doc/feature/Auth/ui/view/sign_up_view.dart';
+import 'package:halaby_doc/feature/Auth/ui/view/successfully_signup.dart';
 import 'package:halaby_doc/feature/onboarding/ui/view/onboarding_view.dart';
 
 class AppRouter {
@@ -11,7 +15,15 @@ class AppRouter {
       case Routes.onBoardingScreen:
         return _buildRoute(OnboardingView());
       case Routes.loginScreen:
-        return _buildRoute(LoginView());
+        return _buildRoute(
+          BlocProvider(create: (context) => AuthCubit(), child: LoginView()),
+        );
+      case Routes.signupScreen:
+        return _buildRoute(
+          BlocProvider(create: (context) => AuthCubit(), child: SignUpView()),
+        );
+      case Routes.successfullySignup:
+        return _buildRoute(SuccessfullySignup());
 
       default:
         return MaterialPageRoute(

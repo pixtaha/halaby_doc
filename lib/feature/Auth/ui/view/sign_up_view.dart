@@ -4,25 +4,24 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:halaby_doc/core/helper/extension.dart';
 import 'package:halaby_doc/core/helper/spacing.dart';
-import 'package:halaby_doc/core/router/routes.dart';
 import 'package:halaby_doc/core/theme/app_color.dart';
 import 'package:halaby_doc/core/theme/textstyles.dart';
 import 'package:halaby_doc/core/widget/app_snackbar_content.dart';
 import 'package:halaby_doc/core/widget/app_text_button.dart';
 import 'package:halaby_doc/core/widget/app_text_form_field.dart';
 import 'package:halaby_doc/feature/Auth/logic/cubit/auth_cubit.dart';
+import 'package:halaby_doc/feature/Auth/ui/view/successfully_signup.dart';
 import 'package:halaby_doc/feature/Auth/ui/widget/swith_sign_type.dart';
 import 'package:halaby_doc/feature/Auth/ui/widget/terms_and_conditions_text.dart';
-import 'package:halaby_doc/feature/home/ui/view/home_view.dart';
 
-class LoginView extends StatefulWidget {
-  const LoginView({super.key});
+class SignUpView extends StatefulWidget {
+  const SignUpView({super.key});
 
   @override
-  State<LoginView> createState() => _LoginViewState();
+  State<SignUpView> createState() => _SignUpViewState();
 }
 
-class _LoginViewState extends State<LoginView> {
+class _SignUpViewState extends State<SignUpView> {
   final formKey = GlobalKey<FormState>();
   bool isObscureText = true;
   @override
@@ -37,38 +36,38 @@ class _LoginViewState extends State<LoginView> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Spacing.vertical(40),
-                Text('Welcome Back', style: TextStyles.font24BlueExtraBold),
+                Text('Create Account', style: TextStyles.font24BlueExtraBold),
                 Spacing.vertical(8),
                 Text(
-                  'We\'re excited to have you back, can\'t wait to see what you\'ve been up to since you last logged in.',
+                  'Sign up now and start exploring all that our app has to offer. We\'re excited to welcome you to our community!',
                   style: TextStyles.font14GrayLighteMedium,
                 ),
                 Spacing.vertical(56),
                 BlocListener<AuthCubit, AuthState>(
                   listener: (context, state) {
-                    if (state is LoadingLoginState) {
+                    if (state is LoadingCreateAccountState) {
                       AppSnackBar.show(
                         context,
                         title: 'Loading...',
-                        message: 'Searching for your account now',
-                        contentType: ContentType.warning,
+                        message: 'Creating your account now',
+                        contentType: ContentType.success,
+                        color: AppColor.primaryColor.withValues(alpha: 0.4),
                       );
-                    }
-                    if (state is SuccessLoginState) {
+                    } else if (state is SuccessCreateAccountState) {
                       AppSnackBar.show(
                         context,
-                        title: 'Successurly Login in',
-                        message: 'Welcome sear for hour new Application',
+                        title: 'Successed Login',
+                        message:
+                            'You now can ask Dr Halaby any Question from Here',
                         contentType: ContentType.success,
                       );
-                      context.pushAndRemoveUntil(HomeView());
-                    }
-                    if (state is ErrorLoginState) {
+                      context.pushAndRemoveUntil(SuccessfullySignup());
+                    } else if (state is ErrorCreateAccountState) {
                       AppSnackBar.show(
                         context,
-                        title: 'Wrong Account',
-                        message: 'We not find your account ,Super Sorry.',
-                        contentType: ContentType.failure,
+                        title: 'Rejected Sign Up',
+                        message: 'You can Sign up now ,we will fix this soon',
+                        contentType: ContentType.warning,
                       );
                     }
                   },
@@ -78,27 +77,21 @@ class _LoginViewState extends State<LoginView> {
                       children: [
                         AppTextFormField(
                           hintText: 'Email',
-                          controller: cubit.loginEmailController,
+                          controller: cubit.createAccountEmailController,
                         ),
                         Spacing.vertical(16),
                         AppTextFormField(
                           hintText: 'Password',
-                          controller: cubit.loginPasswordController,
                           isObscureText: isObscureText,
                           suffixIcon: visibilitySuffixIcon(),
+                          controller: cubit.createAccountPasswordController,
                         ),
-                        Spacing.vertical(12),
-                        Align(
-                          alignment: AlignmentDirectional.centerEnd,
-                          child: Text(
-                            'Forgot Password?',
-                            style: TextStyles.font13BlueRegular,
-                          ),
-                        ),
-                        Spacing.vertical(26),
+                        Spacing.vertical(60),
                         AppTextButton(
-                          buttonText: 'Login',
-                          onPressed: () => cubit.login(),
+                          buttonText: 'Sign Up',
+                          onPressed: () {
+                            cubit.createAccount();
+                          },
                         ),
                       ],
                     ),
@@ -108,10 +101,10 @@ class _LoginViewState extends State<LoginView> {
                 TermsAndConditionsText(),
                 Spacing.vertical(16),
                 SwithSignType(
-                  title: 'Already have an account yet?',
-                  textButtonTitle: 'Sign Up',
+                  title: 'I\'m Haven\'t Account',
+                  textButtonTitle: 'Sign In',
                   onTap: () {
-                    context.pushNamed(Routes.signupScreen);
+                    context.pop();
                   },
                 ),
               ],

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:halaby_doc/core/router/routes_constants.dart';
+import 'package:halaby_doc/feature/Auth/ui/view/successfully_signup.dart';
+import 'package:halaby_doc/feature/home/ui/view/home_view.dart';
 import 'package:halaby_doc/feature/onboarding/ui/view/onboarding_view.dart';
 
 class HalabyApp extends StatelessWidget {
@@ -21,7 +23,8 @@ class HalabyApp extends StatelessWidget {
         ),
         onGenerateRoute: AppRouter.generateRoute,
         debugShowCheckedModeBanner: false,
-        home: OnboardingView(),
+        // home: OnboardingView(),
+        home: HomeView(),
       ),
     );
   }

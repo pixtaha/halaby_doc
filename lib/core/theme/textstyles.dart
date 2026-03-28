@@ -19,12 +19,19 @@ class TextStyles {
 
   static TextStyle font24BlueExtraBold = TextStyle(
     fontSize: 24.h,
+    height: 1.6,
     fontWeight: FontWeightHelper.extraBold,
     color: AppColor.primaryColor,
   );
 
+  static TextStyle font18GrayDarkSemiBold = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeightHelper.semiBold,
+    color: AppColor.grayDark,
+  );
+
   static TextStyle font16WhiteSemiBold = TextStyle(
-    fontSize: 16,
+    fontSize: 16.sp,
     fontWeight: FontWeightHelper.semiBold,
     color: Colors.white,
   );

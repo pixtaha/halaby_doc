@@ -12,7 +12,7 @@ class HalabyLogoAndName extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SvgPicture.asset('assets/icon/halaby_logo.svg', width: 46),
-        Spacing.vertical(10),
+        Spacing.horezontal(8),
         Text('Halapy', style: TextStyles.font32GrayNormalExtraBold),
       ],
     );

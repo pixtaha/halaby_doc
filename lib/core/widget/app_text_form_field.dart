@@ -5,6 +5,7 @@ import 'package:halaby_doc/core/theme/textstyles.dart';
 
 class AppTextFormField extends StatelessWidget {
   final String hintText;
+  final TextEditingController controller;
   final EdgeInsetsGeometry? contentPadding;
   final InputBorder? focusedBorder;
   final InputBorder? enabledBorder;
@@ -18,6 +19,7 @@ class AppTextFormField extends StatelessWidget {
   const AppTextFormField({
     super.key,
     required this.hintText,
+    required this.controller,
     this.contentPadding,
     this.focusedBorder,
     this.enabledBorder,
@@ -32,6 +34,7 @@ class AppTextFormField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
+      controller: controller,
       cursorColor: AppColor.primaryColor,
       cursorOpacityAnimates: true,
       cursorRadius: Radius.circular(2),
