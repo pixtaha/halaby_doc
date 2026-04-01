@@ -18,7 +18,7 @@ class RecommendedDoctors extends StatelessWidget {
       },
       builder: (context, state) {
         if (state is DoctorsLoaded) {
-          return DoctorsList(doctors: state.allDoctors);
+          return DoctorsList(doctors: state.allDoctors, specialties: state.specialties);
         } else if (state is DoctorsLoading) {
           return Center(child: CircularProgressIndicator());
         } else if (state is DoctorsError) {

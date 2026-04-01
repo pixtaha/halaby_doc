@@ -6,15 +6,22 @@ import 'package:halaby_doc/core/helper/spacing.dart';
 import 'package:halaby_doc/core/theme/app_color.dart';
 import 'package:halaby_doc/core/theme/textstyles.dart';
 import 'package:halaby_doc/feature/home/data/models/doctor_model.dart';
+import 'package:halaby_doc/feature/home/data/models/specialty_model.dart';
 
 class DoctorsList extends StatelessWidget {
+  final List<SpecialtyModel> specialties;
   final List<DoctorModel> doctors;
-  const DoctorsList({super.key, required this.doctors});
+  const DoctorsList({
+    super.key,
+    required this.doctors,
+    required this.specialties,
+  });
 
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: doctors.length,
+      itemCount: specialties.length,
+
       physics: NeverScrollableScrollPhysics(),
       shrinkWrap: true,
       itemBuilder: (context, index) => Container(
@@ -38,7 +45,7 @@ class DoctorsList extends StatelessWidget {
                 'assets/image/heart.png',
                 fit: BoxFit.cover,
                 width: 100.w,
-                height: 100.w,
+                height: 130.w,
               ),
             ),
             Spacing.horezontal(16),
@@ -49,15 +56,14 @@ class DoctorsList extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Dr. Mahmoud Alaa',
-                      maxLines: 2, // أقصى عدد سطور
+                      specialties[index].doctors[0].nameEn,
+                      maxLines: 2,
                       overflow: TextOverflow.ellipsis,
-                      // 'test',
                       style: TextStyles.font18GrayDarkSemiBold,
                     ),
                     Spacing.vertical(8),
                     Text(
-                      'General | RSUD Gatot Subroto',
+                      '${specialties[index].doctors[1].specialtyEn} | ${specialties[index].doctors[1].clinicAddressEn}',
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                       style: TextStyles.font13BlueRegular.copyWith(
@@ -67,17 +73,12 @@ class DoctorsList extends StatelessWidget {
                     Spacing.vertical(8),
                     Row(
                       children: [
-                        SvgPicture.asset(
-                          'assets/icon/star.svg',
-                          width: 18.w,
-                        ),
+                        SvgPicture.asset('assets/icon/star.svg', width: 18.w),
                         Spacing.horezontal(4),
                         Text(
-                          '4.8 (4,279 reviews)',
+                          '${specialties[index].doctors[1].rating} (${specialties[index].doctors[1].reviewsCount} reviews)',
                           style: TextStyles.font13BlueRegular.copyWith(
-                            color: AppColor.grayNormal.withValues(
-                              alpha: 0.7,
-                            ),
+                            color: AppColor.grayNormal.withValues(alpha: 0.7),
                           ),
                         ),
                       ],

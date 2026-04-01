@@ -12,6 +12,7 @@ class DoctorsCubit extends Cubit<DoctorsState> {
     emit(DoctorsLoading());
     try {
       final specialties = await _repository.getSpecialties();
+      
       emit(DoctorsLoaded(specialties));
     } catch (e) {
       emit(DoctorsError('فشل تحميل البيانات'));

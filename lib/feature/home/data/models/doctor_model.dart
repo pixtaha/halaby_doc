@@ -9,6 +9,7 @@ class DoctorModel {
   final String specialtyAr;
   final String specialtyEn;
   final String imageUrl;
+  final String imagePath;
   final String clinicPhone;
   final String clinicAddressAr;
   final String clinicAddressEn;
@@ -23,6 +24,7 @@ class DoctorModel {
     required this.specialtyAr,
     required this.specialtyEn,
     required this.imageUrl,
+    required this.imagePath,
     required this.clinicPhone,
     required this.clinicAddressAr,
     required this.clinicAddressEn,
@@ -39,6 +41,7 @@ class DoctorModel {
       specialtyAr: json['specialty_ar'],
       specialtyEn: json['specialty_en'],
       imageUrl: json['image'],
+      imagePath: json['image_path'],
       clinicPhone: json['clinic_phone'],
       clinicAddressAr: json['clinic_address_ar'],
       clinicAddressEn: json['clinic_address_en'],
@@ -58,6 +61,7 @@ class DoctorModel {
       'specialty_ar': specialtyAr,
       'specialty_en': specialtyEn,
       'image': imageUrl,
+      'image_path': imagePath,
       'clinic_phone': clinicPhone,
       'clinic_address_ar': clinicAddressAr,
       'clinic_address_en': clinicAddressEn,

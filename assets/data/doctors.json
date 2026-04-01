@@ -7,7 +7,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966327.png",
       "doctors": [
         {
-          "id": 101,
+          "id": 1001,
           "name_ar": "د. أحمد محمد السيد",
           "name_en": "Dr. Ahmed Mohamed El-Sayed",
           "specialty_ar": "طب الأطفال",
@@ -19,13 +19,29 @@
           "rating": 4.8,
           "reviews_count": 124,
           "reviews": [
-            { "id": 1, "reviewer": "أم كريم", "rating": 5, "comment": "دكتور ممتاز ومتفهم جداً مع الأطفال، ربنا يبارك فيه" },
-            { "id": 2, "reviewer": "محمد علي", "rating": 5, "comment": "تشخيص سريع ودقيق، أنصح بيه جداً" },
-            { "id": 3, "reviewer": "سارة أحمد", "rating": 4, "comment": "كويس بس الانتظار طويل شوية" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "أم كريم",
+              "rating": 5,
+              "comment": "دكتور ممتاز ومتفهم جداً مع الأطفال، ربنا يبارك فيه"
+            },
+            {
+              "id": 2,
+              "reviewer": "محمد علي",
+              "rating": 5,
+              "comment": "تشخيص سريع ودقيق، أنصح بيه جداً"
+            },
+            {
+              "id": 3,
+              "reviewer": "سارة أحمد",
+              "rating": 4,
+              "comment": "كويس بس الانتظار طويل شوية"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Ahmed-Mohamed-El-Sayed-1001.png"
         },
         {
-          "id": 102,
+          "id": 1002,
           "name_ar": "د. منى إبراهيم حسن",
           "name_en": "Dr. Mona Ibrahim Hassan",
           "specialty_ar": "طب الأطفال",
@@ -37,13 +53,29 @@
           "rating": 4.6,
           "reviews_count": 89,
           "reviews": [
-            { "id": 1, "reviewer": "هناء محمود", "rating": 5, "comment": "دكتورة رائعة ومبتسمة دايماً" },
-            { "id": 2, "reviewer": "خالد يوسف", "rating": 4, "comment": "متعاونة جداً وشارحة كل حاجة بالتفصيل" },
-            { "id": 3, "reviewer": "نورا سامي", "rating": 5, "comment": "أفضل دكتورة أطفال قابلتها" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "هناء محمود",
+              "rating": 5,
+              "comment": "دكتورة رائعة ومبتسمة دايماً"
+            },
+            {
+              "id": 2,
+              "reviewer": "خالد يوسف",
+              "rating": 4,
+              "comment": "متعاونة جداً وشارحة كل حاجة بالتفصيل"
+            },
+            {
+              "id": 3,
+              "reviewer": "نورا سامي",
+              "rating": 5,
+              "comment": "أفضل دكتورة أطفال قابلتها"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Mona-Ibrahim-Hassan-1002.png"
         },
         {
-          "id": 103,
+          "id": 1003,
           "name_ar": "د. عمر فاروق عبد الله",
           "name_en": "Dr. Omar Farouk Abdullah",
           "specialty_ar": "طب الأطفال",
@@ -55,10 +87,26 @@
           "rating": 4.5,
           "reviews_count": 67,
           "reviews": [
-            { "id": 1, "reviewer": "أمل رمضان", "rating": 4, "comment": "دكتور كويس بس العيادة بعيدة شوية" },
-            { "id": 2, "reviewer": "إسلام حسام", "rating": 5, "comment": "خبرة عالية ومتمكن جداً من تخصصه" },
-            { "id": 3, "reviewer": "ريهام صلاح", "rating": 4, "comment": "مواعيد منتظمة ومحترم جداً" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "أمل رمضان",
+              "rating": 4,
+              "comment": "دكتور كويس بس العيادة بعيدة شوية"
+            },
+            {
+              "id": 2,
+              "reviewer": "إسلام حسام",
+              "rating": 5,
+              "comment": "خبرة عالية ومتمكن جداً من تخصصه"
+            },
+            {
+              "id": 3,
+              "reviewer": "ريهام صلاح",
+              "rating": 4,
+              "comment": "مواعيد منتظمة ومحترم جداً"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Omar-Farouk-Abdullah-1003.png"
         }
       ]
     },
@@ -69,7 +117,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966278.png",
       "doctors": [
         {
-          "id": 201,
+          "id": 2001,
           "name_ar": "د. طارق عبد العزيز",
           "name_en": "Dr. Tarek Abd El-Aziz",
           "specialty_ar": "طب القلب",
@@ -81,13 +129,29 @@
           "rating": 4.9,
           "reviews_count": 213,
           "reviews": [
-            { "id": 1, "reviewer": "حسن مصطفى", "rating": 5, "comment": "دكتور من الطراز الأول، خبرة كبيرة جداً" },
-            { "id": 2, "reviewer": "سعاد كمال", "rating": 5, "comment": "أنقذ حياة والدي، ربنا يجازيه خير" },
-            { "id": 3, "reviewer": "وليد نبيل", "rating": 5, "comment": "شرح حالتي بالكامل وخلاني مطمن" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "حسن مصطفى",
+              "rating": 5,
+              "comment": "دكتور من الطراز الأول، خبرة كبيرة جداً"
+            },
+            {
+              "id": 2,
+              "reviewer": "سعاد كمال",
+              "rating": 5,
+              "comment": "أنقذ حياة والدي، ربنا يجازيه خير"
+            },
+            {
+              "id": 3,
+              "reviewer": "وليد نبيل",
+              "rating": 5,
+              "comment": "شرح حالتي بالكامل وخلاني مطمن"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Tarek-Abd-El-Aziz-2001.png"
         },
         {
-          "id": 202,
+          "id": 2002,
           "name_ar": "د. هبة عصام الدين",
           "name_en": "Dr. Heba Essam El-Din",
           "specialty_ar": "طب القلب",
@@ -99,13 +163,29 @@
           "rating": 4.7,
           "reviews_count": 158,
           "reviews": [
-            { "id": 1, "reviewer": "محمود جلال", "rating": 5, "comment": "دكتورة محترمة ومتخصصة جداً" },
-            { "id": 2, "reviewer": "فاطمة عمر", "rating": 4, "comment": "كويسة بس تاخد وقت في الشرح" },
-            { "id": 3, "reviewer": "أشرف درويش", "rating": 5, "comment": "تشخيص دقيق وعلاج صح" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "محمود جلال",
+              "rating": 5,
+              "comment": "دكتورة محترمة ومتخصصة جداً"
+            },
+            {
+              "id": 2,
+              "reviewer": "فاطمة عمر",
+              "rating": 4,
+              "comment": "كويسة بس تاخد وقت في الشرح"
+            },
+            {
+              "id": 3,
+              "reviewer": "أشرف درويش",
+              "rating": 5,
+              "comment": "تشخيص دقيق وعلاج صح"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Heba-Essam-El-Din-2002.png"
         },
         {
-          "id": 203,
+          "id": 2003,
           "name_ar": "د. كريم منصور",
           "name_en": "Dr. Karim Mansour",
           "specialty_ar": "طب القلب",
@@ -117,10 +197,26 @@
           "rating": 4.4,
           "reviews_count": 94,
           "reviews": [
-            { "id": 1, "reviewer": "نادية حلمي", "rating": 4, "comment": "دكتور شاطر بس مشغول أوي" },
-            { "id": 2, "reviewer": "يوسف صابر", "rating": 5, "comment": "علاجه نافع الحمد لله" },
-            { "id": 3, "reviewer": "إيمان فتحي", "rating": 4, "comment": "كويس ومتابع بعد الكشف" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "نادية حلمي",
+              "rating": 4,
+              "comment": "دكتور شاطر بس مشغول أوي"
+            },
+            {
+              "id": 2,
+              "reviewer": "يوسف صابر",
+              "rating": 5,
+              "comment": "علاجه نافع الحمد لله"
+            },
+            {
+              "id": 3,
+              "reviewer": "إيمان فتحي",
+              "rating": 4,
+              "comment": "كويس ومتابع بعد الكشف"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Karim-Mansour-2003.png"
         }
       ]
     },
@@ -131,7 +227,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966292.png",
       "doctors": [
         {
-          "id": 301,
+          "id": 3001,
           "name_ar": "د. ياسمين حسام",
           "name_en": "Dr. Yasmin Hossam",
           "specialty_ar": "طب العيون",
@@ -143,13 +239,29 @@
           "rating": 4.7,
           "reviews_count": 102,
           "reviews": [
-            { "id": 1, "reviewer": "زينب محمد", "rating": 5, "comment": "دكتورة بتشرح بالتفصيل وعندها صبر" },
-            { "id": 2, "reviewer": "عادل فهمي", "rating": 5, "comment": "حل مشكلة بصري من أول كشف" },
-            { "id": 3, "reviewer": "منى عبد الرحمن", "rating": 4, "comment": "عيادة نظيفة وتجهيزات حديثة" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "زينب محمد",
+              "rating": 5,
+              "comment": "دكتورة بتشرح بالتفصيل وعندها صبر"
+            },
+            {
+              "id": 2,
+              "reviewer": "عادل فهمي",
+              "rating": 5,
+              "comment": "حل مشكلة بصري من أول كشف"
+            },
+            {
+              "id": 3,
+              "reviewer": "منى عبد الرحمن",
+              "rating": 4,
+              "comment": "عيادة نظيفة وتجهيزات حديثة"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Yasmin-Hossam-3001.png"
         },
         {
-          "id": 302,
+          "id": 3002,
           "name_ar": "د. سامح رضا",
           "name_en": "Dr. Sameh Reda",
           "specialty_ar": "طب العيون",
@@ -161,13 +273,29 @@
           "rating": 4.6,
           "reviews_count": 77,
           "reviews": [
-            { "id": 1, "reviewer": "لمياء حسين", "rating": 5, "comment": "ماهر جداً في عمليات الليزك" },
-            { "id": 2, "reviewer": "بسام طه", "rating": 4, "comment": "متمكن من عمله ومطمئن" },
-            { "id": 3, "reviewer": "شيرين فؤاد", "rating": 5, "comment": "أفضل دكتور عيون في المنطقة" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "لمياء حسين",
+              "rating": 5,
+              "comment": "ماهر جداً في عمليات الليزك"
+            },
+            {
+              "id": 2,
+              "reviewer": "بسام طه",
+              "rating": 4,
+              "comment": "متمكن من عمله ومطمئن"
+            },
+            {
+              "id": 3,
+              "reviewer": "شيرين فؤاد",
+              "rating": 5,
+              "comment": "أفضل دكتور عيون في المنطقة"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Sameh-Reda-3002.png"
         },
         {
-          "id": 303,
+          "id": 3003,
           "name_ar": "د. رانيا الشريف",
           "name_en": "Dr. Rania El-Shareef",
           "specialty_ar": "طب العيون",
@@ -179,10 +307,26 @@
           "rating": 4.5,
           "reviews_count": 61,
           "reviews": [
-            { "id": 1, "reviewer": "كريمة سعد", "rating": 4, "comment": "دكتورة متعاونة وبتفهم" },
-            { "id": 2, "reviewer": "وائل حسن", "rating": 5, "comment": "شرحت الوضع كويس وديني علاج مناسب" },
-            { "id": 3, "reviewer": "دينا عاطف", "rating": 5, "comment": "ممتازة في تركيب النضارات والعدسات" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "كريمة سعد",
+              "rating": 4,
+              "comment": "دكتورة متعاونة وبتفهم"
+            },
+            {
+              "id": 2,
+              "reviewer": "وائل حسن",
+              "rating": 5,
+              "comment": "شرحت الوضع كويس وديني علاج مناسب"
+            },
+            {
+              "id": 3,
+              "reviewer": "دينا عاطف",
+              "rating": 5,
+              "comment": "ممتازة في تركيب النضارات والعدسات"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Rania-El-Shareef-3003.png"
         }
       ]
     },
@@ -193,7 +337,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966302.png",
       "doctors": [
         {
-          "id": 401,
+          "id": 4001,
           "name_ar": "د. محمد عبد الحميد",
           "name_en": "Dr. Mohamed Abd El-Hamid",
           "specialty_ar": "طب الأسنان",
@@ -205,13 +349,29 @@
           "rating": 4.8,
           "reviews_count": 188,
           "reviews": [
-            { "id": 1, "reviewer": "مريم إبراهيم", "rating": 5, "comment": "دكتور بيحس بالمريض ومش بيوجع خالص" },
-            { "id": 2, "reviewer": "تامر محروس", "rating": 5, "comment": "شغل نظيف وأسنان تبان تمام" },
-            { "id": 3, "reviewer": "هالة أنور", "rating": 4, "comment": "سعر مناسب مقارنة بغيره" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "مريم إبراهيم",
+              "rating": 5,
+              "comment": "دكتور بيحس بالمريض ومش بيوجع خالص"
+            },
+            {
+              "id": 2,
+              "reviewer": "تامر محروس",
+              "rating": 5,
+              "comment": "شغل نظيف وأسنان تبان تمام"
+            },
+            {
+              "id": 3,
+              "reviewer": "هالة أنور",
+              "rating": 4,
+              "comment": "سعر مناسب مقارنة بغيره"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Mohamed-Abd-El-Hamid-4001.png"
         },
         {
-          "id": 402,
+          "id": 4002,
           "name_ar": "د. نور الهدى عثمان",
           "name_en": "Dr. Nour El-Hoda Othman",
           "specialty_ar": "طب الأسنان",
@@ -223,13 +383,29 @@
           "rating": 4.6,
           "reviews_count": 115,
           "reviews": [
-            { "id": 1, "reviewer": "أحمد سليمان", "rating": 5, "comment": "دكتورة شاطرة في التجميل والتقويم" },
-            { "id": 2, "reviewer": "رشا إسماعيل", "rating": 4, "comment": "شغلها دقيق ومتقن" },
-            { "id": 3, "reviewer": "عمرو بدوي", "rating": 5, "comment": "أخدت تقويم عندها وراضية جداً" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "أحمد سليمان",
+              "rating": 5,
+              "comment": "دكتورة شاطرة في التجميل والتقويم"
+            },
+            {
+              "id": 2,
+              "reviewer": "رشا إسماعيل",
+              "rating": 4,
+              "comment": "شغلها دقيق ومتقن"
+            },
+            {
+              "id": 3,
+              "reviewer": "عمرو بدوي",
+              "rating": 5,
+              "comment": "أخدت تقويم عندها وراضية جداً"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Nour-El-Hoda-Othman-4002.png"
         },
         {
-          "id": 403,
+          "id": 4003,
           "name_ar": "د. إسلام عبد الوهاب",
           "name_en": "Dr. Islam Abd El-Wahab",
           "specialty_ar": "طب الأسنان",
@@ -241,10 +417,26 @@
           "rating": 4.3,
           "reviews_count": 52,
           "reviews": [
-            { "id": 1, "reviewer": "صفاء جابر", "rating": 4, "comment": "كويس وبيشرح العلاج كويس" },
-            { "id": 2, "reviewer": "حمدي قاسم", "rating": 5, "comment": "علاج جذور ناجح الحمد لله" },
-            { "id": 3, "reviewer": "ولاء حمدي", "rating": 4, "comment": "عيادة مجهزة ونظيفة" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "صفاء جابر",
+              "rating": 4,
+              "comment": "كويس وبيشرح العلاج كويس"
+            },
+            {
+              "id": 2,
+              "reviewer": "حمدي قاسم",
+              "rating": 5,
+              "comment": "علاج جذور ناجح الحمد لله"
+            },
+            {
+              "id": 3,
+              "reviewer": "ولاء حمدي",
+              "rating": 4,
+              "comment": "عيادة مجهزة ونظيفة"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Islam-Abd-El-Wahab-4003.png"
         }
       ]
     },
@@ -255,7 +447,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966334.png",
       "doctors": [
         {
-          "id": 501,
+          "id": 5001,
           "name_ar": "د. حازم شوقي",
           "name_en": "Dr. Hazem Shawky",
           "specialty_ar": "طب العظام",
@@ -267,13 +459,29 @@
           "rating": 4.9,
           "reviews_count": 176,
           "reviews": [
-            { "id": 1, "reviewer": "سيد الشرقاوي", "rating": 5, "comment": "دكتور ممتاز عمل لي عملية وطلعت تمام" },
-            { "id": 2, "reviewer": "نجوى مصطفى", "rating": 5, "comment": "خبرة كبيرة في عمليات الركبة" },
-            { "id": 3, "reviewer": "جمال البنا", "rating": 5, "comment": "شفيت من ألم الظهر المزمن بفضله" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "سيد الشرقاوي",
+              "rating": 5,
+              "comment": "دكتور ممتاز عمل لي عملية وطلعت تمام"
+            },
+            {
+              "id": 2,
+              "reviewer": "نجوى مصطفى",
+              "rating": 5,
+              "comment": "خبرة كبيرة في عمليات الركبة"
+            },
+            {
+              "id": 3,
+              "reviewer": "جمال البنا",
+              "rating": 5,
+              "comment": "شفيت من ألم الظهر المزمن بفضله"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Hazem-Shawky-5001.png"
         },
         {
-          "id": 502,
+          "id": 5002,
           "name_ar": "د. ماجدة فريد",
           "name_en": "Dr. Magda Farid",
           "specialty_ar": "طب العظام",
@@ -285,13 +493,29 @@
           "rating": 4.5,
           "reviews_count": 83,
           "reviews": [
-            { "id": 1, "reviewer": "ربيع عبد الله", "rating": 5, "comment": "دكتورة دقيقة في التشخيص" },
-            { "id": 2, "reviewer": "فوزية إبراهيم", "rating": 4, "comment": "مشيت عادي بعد ما كنت مش قادر أمشي" },
-            { "id": 3, "reviewer": "ناصر حسن", "rating": 5, "comment": "متخصصة في الكسور والمفاصل" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "ربيع عبد الله",
+              "rating": 5,
+              "comment": "دكتورة دقيقة في التشخيص"
+            },
+            {
+              "id": 2,
+              "reviewer": "فوزية إبراهيم",
+              "rating": 4,
+              "comment": "مشيت عادي بعد ما كنت مش قادر أمشي"
+            },
+            {
+              "id": 3,
+              "reviewer": "ناصر حسن",
+              "rating": 5,
+              "comment": "متخصصة في الكسور والمفاصل"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Magda-Farid-5002.png"
         },
         {
-          "id": 503,
+          "id": 5003,
           "name_ar": "د. أيمن رشاد",
           "name_en": "Dr. Ayman Rashad",
           "specialty_ar": "طب العظام",
@@ -303,10 +527,26 @@
           "rating": 4.4,
           "reviews_count": 64,
           "reviews": [
-            { "id": 1, "reviewer": "لطفي عبد الرازق", "rating": 4, "comment": "دكتور متمكن وعمله دقيق" },
-            { "id": 2, "reviewer": "منال غريب", "rating": 5, "comment": "علاج طبيعي بعد العملية كان تحت إشرافه ممتاز" },
-            { "id": 3, "reviewer": "صلاح الدين علي", "rating": 4, "comment": "كويس بس الكشفية غالية شوية" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "لطفي عبد الرازق",
+              "rating": 4,
+              "comment": "دكتور متمكن وعمله دقيق"
+            },
+            {
+              "id": 2,
+              "reviewer": "منال غريب",
+              "rating": 5,
+              "comment": "علاج طبيعي بعد العملية كان تحت إشرافه ممتاز"
+            },
+            {
+              "id": 3,
+              "reviewer": "صلاح الدين علي",
+              "rating": 4,
+              "comment": "كويس بس الكشفية غالية شوية"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Ayman-Rashad-5003.png"
         }
       ]
     },
@@ -317,7 +557,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966316.png",
       "doctors": [
         {
-          "id": 601,
+          "id": 6001,
           "name_ar": "د. شيرين عادل",
           "name_en": "Dr. Sherine Adel",
           "specialty_ar": "الأمراض الجلدية",
@@ -329,13 +569,29 @@
           "rating": 4.8,
           "reviews_count": 143,
           "reviews": [
-            { "id": 1, "reviewer": "ندى وليم", "rating": 5, "comment": "علجت مشكلة البشرة بتاعتي من أول زيارة" },
-            { "id": 2, "reviewer": "سمر مجدي", "rating": 5, "comment": "دكتورة متخصصة في الليزر والتجميل" },
-            { "id": 3, "reviewer": "ريم أحمد", "rating": 4, "comment": "بتهتم بالمريض وبتابع معاه" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "ندى وليم",
+              "rating": 5,
+              "comment": "علجت مشكلة البشرة بتاعتي من أول زيارة"
+            },
+            {
+              "id": 2,
+              "reviewer": "سمر مجدي",
+              "rating": 5,
+              "comment": "دكتورة متخصصة في الليزر والتجميل"
+            },
+            {
+              "id": 3,
+              "reviewer": "ريم أحمد",
+              "rating": 4,
+              "comment": "بتهتم بالمريض وبتابع معاه"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Sherine-Adel-6001.png"
         },
         {
-          "id": 602,
+          "id": 6002,
           "name_ar": "د. باسم حلمي",
           "name_en": "Dr. Bassem Helmy",
           "specialty_ar": "الأمراض الجلدية",
@@ -347,13 +603,29 @@
           "rating": 4.6,
           "reviews_count": 99,
           "reviews": [
-            { "id": 1, "reviewer": "إيناس ربيع", "rating": 5, "comment": "دكتور شاطر في علاج حب الشباب" },
-            { "id": 2, "reviewer": "رامي عزيز", "rating": 4, "comment": "نتيجة كويسة بعد شهرين من العلاج" },
-            { "id": 3, "reviewer": "مي عصام", "rating": 5, "comment": "متخصص في الشعر والفروة" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "إيناس ربيع",
+              "rating": 5,
+              "comment": "دكتور شاطر في علاج حب الشباب"
+            },
+            {
+              "id": 2,
+              "reviewer": "رامي عزيز",
+              "rating": 4,
+              "comment": "نتيجة كويسة بعد شهرين من العلاج"
+            },
+            {
+              "id": 3,
+              "reviewer": "مي عصام",
+              "rating": 5,
+              "comment": "متخصص في الشعر والفروة"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Bassem-Helmy-6002.png"
         },
         {
-          "id": 603,
+          "id": 6003,
           "name_ar": "د. نيفين سمير",
           "name_en": "Dr. Neveen Samir",
           "specialty_ar": "الأمراض الجلدية",
@@ -365,10 +637,26 @@
           "rating": 4.5,
           "reviews_count": 71,
           "reviews": [
-            { "id": 1, "reviewer": "آية حمدي", "rating": 5, "comment": "دكتورة هادية ومتحملة جداً" },
-            { "id": 2, "reviewer": "محسن قنديل", "rating": 4, "comment": "وصفتلي علاج ناجح للأكزيما" },
-            { "id": 3, "reviewer": "نانسي فاروق", "rating": 5, "comment": "بشرتي اتحسنت كتير بسببها" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "آية حمدي",
+              "rating": 5,
+              "comment": "دكتورة هادية ومتحملة جداً"
+            },
+            {
+              "id": 2,
+              "reviewer": "محسن قنديل",
+              "rating": 4,
+              "comment": "وصفتلي علاج ناجح للأكزيما"
+            },
+            {
+              "id": 3,
+              "reviewer": "نانسي فاروق",
+              "rating": 5,
+              "comment": "بشرتي اتحسنت كتير بسببها"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Neveen-Samir-6003.png"
         }
       ]
     },
@@ -379,7 +667,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966288.png",
       "doctors": [
         {
-          "id": 701,
+          "id": 7001,
           "name_ar": "د. علاء حسين",
           "name_en": "Dr. Alaa Hussein",
           "specialty_ar": "الأنف والأذن والحنجرة",
@@ -391,13 +679,29 @@
           "rating": 4.7,
           "reviews_count": 117,
           "reviews": [
-            { "id": 1, "reviewer": "فريدة محمد", "rating": 5, "comment": "عمل لولدي عملية اللوزتين وطلعت تمام" },
-            { "id": 2, "reviewer": "مجدي عليوة", "rating": 4, "comment": "تشخيص سريع وعلاج فعال" },
-            { "id": 3, "reviewer": "حنان البسيوني", "rating": 5, "comment": "دكتور شاطر ومش بيتأخر في المواعيد" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "فريدة محمد",
+              "rating": 5,
+              "comment": "عمل لولدي عملية اللوزتين وطلعت تمام"
+            },
+            {
+              "id": 2,
+              "reviewer": "مجدي عليوة",
+              "rating": 4,
+              "comment": "تشخيص سريع وعلاج فعال"
+            },
+            {
+              "id": 3,
+              "reviewer": "حنان البسيوني",
+              "rating": 5,
+              "comment": "دكتور شاطر ومش بيتأخر في المواعيد"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Alaa-Hussein-7001.png"
         },
         {
-          "id": 702,
+          "id": 7002,
           "name_ar": "د. لبنى الجوهري",
           "name_en": "Dr. Lobna El-Gohary",
           "specialty_ar": "الأنف والأذن والحنجرة",
@@ -409,13 +713,29 @@
           "rating": 4.5,
           "reviews_count": 88,
           "reviews": [
-            { "id": 1, "reviewer": "طه حسنين", "rating": 4, "comment": "دكتورة متعاونة ومفيدة" },
-            { "id": 2, "reviewer": "سلوى نجيب", "rating": 5, "comment": "علاجها للحساسية كان ممتاز" },
-            { "id": 3, "reviewer": "كمال درويش", "rating": 5, "comment": "بتشرح الحالة وبتدي بدائل للعلاج" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "طه حسنين",
+              "rating": 4,
+              "comment": "دكتورة متعاونة ومفيدة"
+            },
+            {
+              "id": 2,
+              "reviewer": "سلوى نجيب",
+              "rating": 5,
+              "comment": "علاجها للحساسية كان ممتاز"
+            },
+            {
+              "id": 3,
+              "reviewer": "كمال درويش",
+              "rating": 5,
+              "comment": "بتشرح الحالة وبتدي بدائل للعلاج"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Lobna-El-Gohary-7002.png"
         },
         {
-          "id": 703,
+          "id": 7003,
           "name_ar": "د. رامي السعيد",
           "name_en": "Dr. Ramy El-Saeed",
           "specialty_ar": "الأنف والأذن والحنجرة",
@@ -427,10 +747,26 @@
           "rating": 4.4,
           "reviews_count": 59,
           "reviews": [
-            { "id": 1, "reviewer": "أسماء رفعت", "rating": 4, "comment": "كويس في تشخيص مشاكل السمع" },
-            { "id": 2, "reviewer": "جورج ميخائيل", "rating": 5, "comment": "حل مشكلة الأذن بتاعتي من غير عملية" },
-            { "id": 3, "reviewer": "سحر ممتاز", "rating": 4, "comment": "دكتور محترم ومتقن لشغله" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "أسماء رفعت",
+              "rating": 4,
+              "comment": "كويس في تشخيص مشاكل السمع"
+            },
+            {
+              "id": 2,
+              "reviewer": "جورج ميخائيل",
+              "rating": 5,
+              "comment": "حل مشكلة الأذن بتاعتي من غير عملية"
+            },
+            {
+              "id": 3,
+              "reviewer": "سحر ممتاز",
+              "rating": 4,
+              "comment": "دكتور محترم ومتقن لشغله"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Ramy-El-Saeed-7003.png"
         }
       ]
     },
@@ -441,7 +777,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966262.png",
       "doctors": [
         {
-          "id": 801,
+          "id": 8001,
           "name_ar": "د. صلاح منير",
           "name_en": "Dr. Salah Monir",
           "specialty_ar": "طب الباطنة",
@@ -453,13 +789,29 @@
           "rating": 4.8,
           "reviews_count": 201,
           "reviews": [
-            { "id": 1, "reviewer": "يسرا الحداد", "rating": 5, "comment": "دكتور بيفهم الحالة من أول كشف" },
-            { "id": 2, "reviewer": "بهاء الدين أحمد", "rating": 5, "comment": "خبرته كبيرة وعلاجه صح" },
-            { "id": 3, "reviewer": "سناء عبد الفتاح", "rating": 4, "comment": "مشهور جداً ومستاهل الزحمة" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "يسرا الحداد",
+              "rating": 5,
+              "comment": "دكتور بيفهم الحالة من أول كشف"
+            },
+            {
+              "id": 2,
+              "reviewer": "بهاء الدين أحمد",
+              "rating": 5,
+              "comment": "خبرته كبيرة وعلاجه صح"
+            },
+            {
+              "id": 3,
+              "reviewer": "سناء عبد الفتاح",
+              "rating": 4,
+              "comment": "مشهور جداً ومستاهل الزحمة"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Salah-Monir-8001.png"
         },
         {
-          "id": 802,
+          "id": 8002,
           "name_ar": "د. أميرة الشناوي",
           "name_en": "Dr. Amira El-Shennawi",
           "specialty_ar": "طب الباطنة",
@@ -471,13 +823,29 @@
           "rating": 4.6,
           "reviews_count": 133,
           "reviews": [
-            { "id": 1, "reviewer": "حسام الخطيب", "rating": 5, "comment": "دكتورة شاملة في تشخيصها" },
-            { "id": 2, "reviewer": "ابتسام نور", "rating": 4, "comment": "بتتابع مع المريض باستمرار" },
-            { "id": 3, "reviewer": "شريف الجيار", "rating": 5, "comment": "علجت السكر والضغط معاً عندها" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "حسام الخطيب",
+              "rating": 5,
+              "comment": "دكتورة شاملة في تشخيصها"
+            },
+            {
+              "id": 2,
+              "reviewer": "ابتسام نور",
+              "rating": 4,
+              "comment": "بتتابع مع المريض باستمرار"
+            },
+            {
+              "id": 3,
+              "reviewer": "شريف الجيار",
+              "rating": 5,
+              "comment": "علجت السكر والضغط معاً عندها"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Amira-El-Shennawi-8002.png"
         },
         {
-          "id": 803,
+          "id": 8003,
           "name_ar": "د. محمد الرفاعي",
           "name_en": "Dr. Mohamed El-Refaai",
           "specialty_ar": "طب الباطنة",
@@ -489,10 +857,26 @@
           "rating": 4.3,
           "reviews_count": 76,
           "reviews": [
-            { "id": 1, "reviewer": "حميدة عبد السلام", "rating": 4, "comment": "دكتور واسع الخبرة وبيشرح كويس" },
-            { "id": 2, "reviewer": "عزت إبراهيم", "rating": 5, "comment": "وصفتلي علاج للكبد وحسيت بتحسن" },
-            { "id": 3, "reviewer": "رشيدة عبد الغفار", "rating": 4, "comment": "صادق في كلامه ومش بيكدب على المريض" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "حميدة عبد السلام",
+              "rating": 4,
+              "comment": "دكتور واسع الخبرة وبيشرح كويس"
+            },
+            {
+              "id": 2,
+              "reviewer": "عزت إبراهيم",
+              "rating": 5,
+              "comment": "وصفتلي علاج للكبد وحسيت بتحسن"
+            },
+            {
+              "id": 3,
+              "reviewer": "رشيدة عبد الغفار",
+              "rating": 4,
+              "comment": "صادق في كلامه ومش بيكدب على المريض"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Mohamed-El-Refaai-8003.png"
         }
       ]
     },
@@ -503,7 +887,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966310.png",
       "doctors": [
         {
-          "id": 901,
+          "id": 9001,
           "name_ar": "د. سوسن جلال",
           "name_en": "Dr. Sawsan Galal",
           "specialty_ar": "طب النساء والتوليد",
@@ -515,13 +899,29 @@
           "rating": 4.9,
           "reviews_count": 267,
           "reviews": [
-            { "id": 1, "reviewer": "ختام عبد الله", "rating": 5, "comment": "دكتورة ببساطة من أحسن الدكاترة اللي شفتهم" },
-            { "id": 2, "reviewer": "وداد حسين", "rating": 5, "comment": "اتولدت عندها وكانت جنبي طول الوقت" },
-            { "id": 3, "reviewer": "فردوس أنور", "rating": 5, "comment": "بتطمن المريضة وبتوضح كل حاجة" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "ختام عبد الله",
+              "rating": 5,
+              "comment": "دكتورة ببساطة من أحسن الدكاترة اللي شفتهم"
+            },
+            {
+              "id": 2,
+              "reviewer": "وداد حسين",
+              "rating": 5,
+              "comment": "اتولدت عندها وكانت جنبي طول الوقت"
+            },
+            {
+              "id": 3,
+              "reviewer": "فردوس أنور",
+              "rating": 5,
+              "comment": "بتطمن المريضة وبتوضح كل حاجة"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Sawsan-Galal-9001.png"
         },
         {
-          "id": 902,
+          "id": 9002,
           "name_ar": "د. إيمان البرعي",
           "name_en": "Dr. Iman El-Barrai",
           "specialty_ar": "طب النساء والتوليد",
@@ -533,13 +933,29 @@
           "rating": 4.7,
           "reviews_count": 184,
           "reviews": [
-            { "id": 1, "reviewer": "إسراء محمود", "rating": 5, "comment": "دكتورة إنسانة قبل ما تكون طبيبة" },
-            { "id": 2, "reviewer": "منى الطيب", "rating": 4, "comment": "بتشرح خطة العلاج بالكامل" },
-            { "id": 3, "reviewer": "نسرين جمال", "rating": 5, "comment": "رائعة في متابعة الحمل" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "إسراء محمود",
+              "rating": 5,
+              "comment": "دكتورة إنسانة قبل ما تكون طبيبة"
+            },
+            {
+              "id": 2,
+              "reviewer": "منى الطيب",
+              "rating": 4,
+              "comment": "بتشرح خطة العلاج بالكامل"
+            },
+            {
+              "id": 3,
+              "reviewer": "نسرين جمال",
+              "rating": 5,
+              "comment": "رائعة في متابعة الحمل"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Iman-El-Barrai-9002.png"
         },
         {
-          "id": 903,
+          "id": 9003,
           "name_ar": "د. هدى منصور",
           "name_en": "Dr. Hoda Mansour",
           "specialty_ar": "طب النساء والتوليد",
@@ -551,10 +967,26 @@
           "rating": 4.5,
           "reviews_count": 109,
           "reviews": [
-            { "id": 1, "reviewer": "عبير فهمي", "rating": 4, "comment": "دكتورة محترمة وجادة في شغلها" },
-            { "id": 2, "reviewer": "أسمهان يحيى", "rating": 5, "comment": "علجت مشكلتي بعد دكاترة كتير ما قدروش" },
-            { "id": 3, "reviewer": "ميرنا جرجس", "rating": 5, "comment": "بتهتم بالراحة النفسية للمريضة" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "عبير فهمي",
+              "rating": 4,
+              "comment": "دكتورة محترمة وجادة في شغلها"
+            },
+            {
+              "id": 2,
+              "reviewer": "أسمهان يحيى",
+              "rating": 5,
+              "comment": "علجت مشكلتي بعد دكاترة كتير ما قدروش"
+            },
+            {
+              "id": 3,
+              "reviewer": "ميرنا جرجس",
+              "rating": 5,
+              "comment": "بتهتم بالراحة النفسية للمريضة"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Hoda-Mansour-9003.png"
         }
       ]
     },
@@ -565,7 +997,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966322.png",
       "doctors": [
         {
-          "id": 1001,
+          "id": 10001,
           "name_ar": "د. حسن الرشيدي",
           "name_en": "Dr. Hassan El-Rashidi",
           "specialty_ar": "طب الأعصاب",
@@ -577,13 +1009,29 @@
           "rating": 4.8,
           "reviews_count": 152,
           "reviews": [
-            { "id": 1, "reviewer": "جمال فوزي", "rating": 5, "comment": "دكتور فاهم الأعصاب جداً وعلاجه صح" },
-            { "id": 2, "reviewer": "صباح عمر", "rating": 5, "comment": "خلصني من الصداع النصفي المزمن" },
-            { "id": 3, "reviewer": "مدحت إسماعيل", "rating": 4, "comment": "بيأخد وقته في الكشف ومش بيتسرع" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "جمال فوزي",
+              "rating": 5,
+              "comment": "دكتور فاهم الأعصاب جداً وعلاجه صح"
+            },
+            {
+              "id": 2,
+              "reviewer": "صباح عمر",
+              "rating": 5,
+              "comment": "خلصني من الصداع النصفي المزمن"
+            },
+            {
+              "id": 3,
+              "reviewer": "مدحت إسماعيل",
+              "rating": 4,
+              "comment": "بيأخد وقته في الكشف ومش بيتسرع"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Hassan-El-Rashidi-10001.png"
         },
         {
-          "id": 1002,
+          "id": 10002,
           "name_ar": "د. غادة عز الدين",
           "name_en": "Dr. Ghada Ezz El-Din",
           "specialty_ar": "طب الأعصاب",
@@ -595,13 +1043,29 @@
           "rating": 4.6,
           "reviews_count": 98,
           "reviews": [
-            { "id": 1, "reviewer": "رفيق سلطان", "rating": 5, "comment": "دكتورة ذكية ومتمكنة" },
-            { "id": 2, "reviewer": "ثريا صادق", "rating": 4, "comment": "علجت الجلطة بتاعت والدي كويس" },
-            { "id": 3, "reviewer": "لقمان عبد الوهاب", "rating": 5, "comment": "متابعة ممتازة بعد الخروج من المستشفى" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "رفيق سلطان",
+              "rating": 5,
+              "comment": "دكتورة ذكية ومتمكنة"
+            },
+            {
+              "id": 2,
+              "reviewer": "ثريا صادق",
+              "rating": 4,
+              "comment": "علجت الجلطة بتاعت والدي كويس"
+            },
+            {
+              "id": 3,
+              "reviewer": "لقمان عبد الوهاب",
+              "rating": 5,
+              "comment": "متابعة ممتازة بعد الخروج من المستشفى"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Ghada-Ezz-El-Din-10002.png"
         },
         {
-          "id": 1003,
+          "id": 10003,
           "name_ar": "د. وائل السباعي",
           "name_en": "Dr. Wael El-Sebaai",
           "specialty_ar": "طب الأعصاب",
@@ -613,14 +1077,29 @@
           "rating": 4.4,
           "reviews_count": 71,
           "reviews": [
-            { "id": 1, "reviewer": "أنور الشيخ", "rating": 4, "comment": "دكتور هادي ومتزن في قراراته" },
-            { "id": 2, "reviewer": "نجاة يوسف", "rating": 5, "comment": "علج الصرع مع ولدي بطريقة ممتازة" },
-            { "id": 3, "reviewer": "عبد الرحمن فريد", "rating": 4, "comment": "ضليت أروحله ٣ سنين وعلاجه ثابت" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "أنور الشيخ",
+              "rating": 4,
+              "comment": "دكتور هادي ومتزن في قراراته"
+            },
+            {
+              "id": 2,
+              "reviewer": "نجاة يوسف",
+              "rating": 5,
+              "comment": "علج الصرع مع ولدي بطريقة ممتازة"
+            },
+            {
+              "id": 3,
+              "reviewer": "عبد الرحمن فريد",
+              "rating": 4,
+              "comment": "ضليت أروحله ٣ سنين وعلاجه ثابت"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Wael-El-Sebaai-10003.png"
         }
       ]
-    }
-    ,
+    },
     {
       "id": 11,
       "name_ar": "طب الأعصاب والجراحة العصبية",
@@ -628,7 +1107,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966322.png",
       "doctors": [
         {
-          "id": 1101,
+          "id": 11001,
           "name_ar": "د. عمرو الشيخ",
           "name_en": "Dr. Amr El-Sheikh",
           "specialty_ar": "طب الأعصاب والجراحة العصبية",
@@ -640,13 +1119,29 @@
           "rating": 4.9,
           "reviews_count": 189,
           "reviews": [
-            { "id": 1, "reviewer": "سامي الحسيني", "rating": 5, "comment": "دكتور متميز جداً في الجراحة العصبية" },
-            { "id": 2, "reviewer": "هيام رشاد", "rating": 5, "comment": "عمل عملية للعمود الفقري وطلعت ناجحة" },
-            { "id": 3, "reviewer": "طارق البدوي", "rating": 4, "comment": "خبرة واسعة ومتمكن من تخصصه" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "سامي الحسيني",
+              "rating": 5,
+              "comment": "دكتور متميز جداً في الجراحة العصبية"
+            },
+            {
+              "id": 2,
+              "reviewer": "هيام رشاد",
+              "rating": 5,
+              "comment": "عمل عملية للعمود الفقري وطلعت ناجحة"
+            },
+            {
+              "id": 3,
+              "reviewer": "طارق البدوي",
+              "rating": 4,
+              "comment": "خبرة واسعة ومتمكن من تخصصه"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Amr-El-Sheikh-11001.png"
         },
         {
-          "id": 1102,
+          "id": 11002,
           "name_ar": "د. لميس عبد الحكيم",
           "name_en": "Dr. Lamees Abd El-Hakim",
           "specialty_ar": "طب الأعصاب والجراحة العصبية",
@@ -658,13 +1153,29 @@
           "rating": 4.7,
           "reviews_count": 134,
           "reviews": [
-            { "id": 1, "reviewer": "أحمد الشرقاوي", "rating": 5, "comment": "دكتورة رائعة في علاج الصرع" },
-            { "id": 2, "reviewer": "نور الدين حسن", "rating": 4, "comment": "متابعة ممتازة وعلاج فعال" },
-            { "id": 3, "reviewer": "سهير عثمان", "rating": 5, "comment": "شرحت الحالة بالتفصيل وطمنتني" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "أحمد الشرقاوي",
+              "rating": 5,
+              "comment": "دكتورة رائعة في علاج الصرع"
+            },
+            {
+              "id": 2,
+              "reviewer": "نور الدين حسن",
+              "rating": 4,
+              "comment": "متابعة ممتازة وعلاج فعال"
+            },
+            {
+              "id": 3,
+              "reviewer": "سهير عثمان",
+              "rating": 5,
+              "comment": "شرحت الحالة بالتفصيل وطمنتني"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Lamees-Abd-El-Hakim-11002.png"
         },
         {
-          "id": 1103,
+          "id": 11003,
           "name_ar": "د. هاني البسيوني",
           "name_en": "Dr. Hany El-Basyouni",
           "specialty_ar": "طب الأعصاب والجراحة العصبية",
@@ -676,10 +1187,26 @@
           "rating": 4.5,
           "reviews_count": 88,
           "reviews": [
-            { "id": 1, "reviewer": "رانيا الجوهري", "rating": 4, "comment": "دكتور هادئ ومتأني في التشخيص" },
-            { "id": 2, "reviewer": "عصام النجار", "rating": 5, "comment": "علج الشقيقة بتاعتي من غير جراحة" },
-            { "id": 3, "reviewer": "مروة سليم", "rating": 5, "comment": "متخصص في أمراض الأعصاب الطرفية" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "رانيا الجوهري",
+              "rating": 4,
+              "comment": "دكتور هادئ ومتأني في التشخيص"
+            },
+            {
+              "id": 2,
+              "reviewer": "عصام النجار",
+              "rating": 5,
+              "comment": "علج الشقيقة بتاعتي من غير جراحة"
+            },
+            {
+              "id": 3,
+              "reviewer": "مروة سليم",
+              "rating": 5,
+              "comment": "متخصص في أمراض الأعصاب الطرفية"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Hany-El-Basyouni-11003.png"
         }
       ]
     },
@@ -690,7 +1217,7 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/2966/2966344.png",
       "doctors": [
         {
-          "id": 1201,
+          "id": 12001,
           "name_ar": "د. أشرف الديب",
           "name_en": "Dr. Ashraf El-Deeb",
           "specialty_ar": "الأشعة التشخيصية",
@@ -702,13 +1229,29 @@
           "rating": 4.8,
           "reviews_count": 162,
           "reviews": [
-            { "id": 1, "reviewer": "محمد الغزالي", "rating": 5, "comment": "دكتور دقيق جداً في قراءة الأشعة" },
-            { "id": 2, "reviewer": "سمية عبد العال", "rating": 5, "comment": "اكتشف حاجة دكاترة تانيين فاتتهم" },
-            { "id": 3, "reviewer": "حمدي الزيات", "rating": 4, "comment": "تقرير مفصل ومفهوم" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "محمد الغزالي",
+              "rating": 5,
+              "comment": "دكتور دقيق جداً في قراءة الأشعة"
+            },
+            {
+              "id": 2,
+              "reviewer": "سمية عبد العال",
+              "rating": 5,
+              "comment": "اكتشف حاجة دكاترة تانيين فاتتهم"
+            },
+            {
+              "id": 3,
+              "reviewer": "حمدي الزيات",
+              "rating": 4,
+              "comment": "تقرير مفصل ومفهوم"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Ashraf-El-Deeb-12001.png"
         },
         {
-          "id": 1202,
+          "id": 12002,
           "name_ar": "د. منار عبد الرحيم",
           "name_en": "Dr. Manar Abd El-Rahim",
           "specialty_ar": "الأشعة التشخيصية",
@@ -720,13 +1263,29 @@
           "rating": 4.6,
           "reviews_count": 97,
           "reviews": [
-            { "id": 1, "reviewer": "إبراهيم الصاوي", "rating": 5, "comment": "دكتورة ماهرة في الأشعة بالموجات الصوتية" },
-            { "id": 2, "reviewer": "ناهد منصور", "rating": 4, "comment": "سريعة ودقيقة في شغلها" },
-            { "id": 3, "reviewer": "وليد الشيخ", "rating": 5, "comment": "متخصصة في أشعة الثدي والتشخيص المبكر" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "إبراهيم الصاوي",
+              "rating": 5,
+              "comment": "دكتورة ماهرة في الأشعة بالموجات الصوتية"
+            },
+            {
+              "id": 2,
+              "reviewer": "ناهد منصور",
+              "rating": 4,
+              "comment": "سريعة ودقيقة في شغلها"
+            },
+            {
+              "id": 3,
+              "reviewer": "وليد الشيخ",
+              "rating": 5,
+              "comment": "متخصصة في أشعة الثدي والتشخيص المبكر"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Manar-Abd-El-Rahim-12002.png"
         },
         {
-          "id": 1203,
+          "id": 12003,
           "name_ar": "د. خالد عبد المنعم",
           "name_en": "Dr. Khaled Abd El-Moneim",
           "specialty_ar": "الأشعة التشخيصية",
@@ -738,10 +1297,26 @@
           "rating": 4.4,
           "reviews_count": 73,
           "reviews": [
-            { "id": 1, "reviewer": "فادي عزيز", "rating": 4, "comment": "دكتور كويس في أشعة الرنين المغناطيسي" },
-            { "id": 2, "reviewer": "عزة فاروق", "rating": 5, "comment": "شرح نتيجة الأشعة بطريقة مبسطة" },
-            { "id": 3, "reviewer": "سيف الدين أحمد", "rating": 4, "comment": "مركز مجهز بأحدث الأجهزة" }
-          ]
+            {
+              "id": 1,
+              "reviewer": "فادي عزيز",
+              "rating": 4,
+              "comment": "دكتور كويس في أشعة الرنين المغناطيسي"
+            },
+            {
+              "id": 2,
+              "reviewer": "عزة فاروق",
+              "rating": 5,
+              "comment": "شرح نتيجة الأشعة بطريقة مبسطة"
+            },
+            {
+              "id": 3,
+              "reviewer": "سيف الدين أحمد",
+              "rating": 4,
+              "comment": "مركز مجهز بأحدث الأجهزة"
+            }
+          ],
+          "image_path": "assets/images/doctors/dr-Khaled-Abd-El-Moneim-12003.png"
         }
       ]
     }
