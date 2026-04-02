@@ -5,9 +5,10 @@ import 'package:halaby_doc/feature/Auth/logic/cubit/auth_cubit.dart';
 import 'package:halaby_doc/feature/Auth/ui/view/login_view.dart';
 import 'package:halaby_doc/feature/Auth/ui/view/sign_up_view.dart';
 import 'package:halaby_doc/feature/Auth/ui/view/successfully_signup.dart';
+import 'package:halaby_doc/feature/home/data/models/doctor_model.dart';
 import 'package:halaby_doc/feature/home/data/repos/doctor_repository.dart';
 import 'package:halaby_doc/feature/home/logic/cubit/doctors_cubit.dart';
-import 'package:halaby_doc/feature/home/ui/view/doctor_details_view.dart';
+import 'package:halaby_doc/feature/home/ui/view/doctor_details_sheet.dart';
 import 'package:halaby_doc/feature/home/ui/view/home_view.dart';
 import 'package:halaby_doc/feature/onboarding/ui/view/onboarding_view.dart';
 
@@ -37,7 +38,8 @@ class AppRouter {
           ),
         );
       case Routes.doctorDetails:
-        return _buildRoute(DoctorDetailsView());
+        final doctor = setting.arguments as DoctorModel;
+        return _buildRoute(DoctorDetailsSheet(doctor: doctor));
 
       default:
         return MaterialPageRoute(

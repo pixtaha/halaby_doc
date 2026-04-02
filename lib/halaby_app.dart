@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:halaby_doc/core/router/routes.dart';
-import 'package:halaby_doc/core/router/routes_constants.dart';
+import 'package:halaby_doc/core/router/routes_cstants.dart';
 
 class HalabyApp extends StatelessWidget {
   final AppRouter appRouter;
