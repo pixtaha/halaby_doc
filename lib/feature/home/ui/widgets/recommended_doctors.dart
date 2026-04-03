@@ -16,7 +16,9 @@ class RecommendedDoctors extends StatelessWidget {
         if (state is DoctorSelected) {
           showModalBottomSheet(
             context: context,
-            barrierColor: AppColor.primaryColor.withValues(alpha: 0.2),
+            isScrollControlled: true,
+            barrierColor: AppColor.grayDark.withValues(alpha: 0.4),
+            backgroundColor: Colors.white,
             builder: (_) => DoctorDetailsSheet(doctor: state.doctor),
           );
         }

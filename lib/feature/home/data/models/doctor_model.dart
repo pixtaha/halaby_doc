@@ -1,5 +1,6 @@
 
 
+import 'package:flutter/material.dart';
 import 'package:halaby_doc/feature/home/data/models/review_model.dart';
 
 class DoctorModel {
@@ -34,6 +35,7 @@ class DoctorModel {
   });
 
   factory DoctorModel.fromJson(Map<String, dynamic> json) {
+    debugPrint('raw rating: ${json['rating']}');
     return DoctorModel(
       id: json['id'],
       nameAr: json['name_ar'],
@@ -45,6 +47,7 @@ class DoctorModel {
       clinicPhone: json['clinic_phone'],
       clinicAddressAr: json['clinic_address_ar'],
       clinicAddressEn: json['clinic_address_en'],
+      // rating: double.parse((json['rating'] as num).toDouble().toStringAsFixed(1).substring(0, 3)),
       rating: (json['rating'] as num).toDouble(),
       reviewsCount: json['reviews_count'],
       reviews: (json['reviews'] as List)
